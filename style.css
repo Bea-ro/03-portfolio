@@ -1,0 +1,31 @@
+:@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;800&display=swap');
+
+@font-face {
+    font-family: 'Inter', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;800&display=swap');
+    font-wight: 400;
+    font-style: normal;
+    font-size: 0.8rem
+}
+
+:root {
+    --color-primary: red;
+    --color-black: #222;
+    --color-white: white;
+    --font-size-xs: 0.7rem
+  }
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
