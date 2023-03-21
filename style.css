@@ -9,10 +9,14 @@
 }
 
 :root {
-    --color-primary: red;
+    --color-one: #8ecae6;
+    --color-two: #219ebc;
+    --color-three: #023047;
+    --color-four: #ffb703;
+    --color-five: #fb8500;
     --color-black: #222;
     --color-white: white;
-    --font-size-xs: 0.7rem
+    --font-size-xs: 0.7rem;
   }
 
 * {
@@ -29,3 +33,5 @@ a {
 li {
   list-style-type: none;
 }
+
+
