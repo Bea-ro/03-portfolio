@@ -7,5 +7,5 @@ export const PERSONALDATA = {
     description: 'With the encourage of a beginer and the luck of a wide experience in Marketing',
     githubProfile: 'https://github.com/Bea-ro', 
     linkedinProfile: 'https://www.linkedin.com/in/beatrizrodriguezmaya/',
-    cuttingEdge: ['Encourage of the beginer', 'Trained with the best developers', 'Best practices focus']
+    cuttingEdge: ['Encourage of the beginer', 'Trained with the best developers', 'Focus on best practices']
 }

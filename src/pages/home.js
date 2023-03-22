@@ -1,36 +1,35 @@
 import { PERSONALDATA } from '../data/personal-data'
-import githubIcon from '/public/icons/github-icon.svg';
-import linkedinIcon from '/public/icons/linkedin-icon.svg'
+//que salga con alguna animación el why me. Meter xq quieres ser developer
 
-//que salga con alguna animación el why me
+const main = document.querySelector('main')
 
-const renderHome = () => {
+export const renderHome = () => {
+main.innerHTML =
 `
-${personalData.image}
-<h3>${personalData.name} ${personalData.surname}</h3>
+
+${PERSONALDATA.image}
+<h3>${PERSONALDATA.name} ${PERSONALDATA.surname}</h3>
            
-<h1>${personalData.occupation}</h1>
-<h2>${personalData.description}</h2>
-<h2>Why me?${personalData.cuttingEdge}</h2>
+<h1>${PERSONALDATA.occupation}</h1>
+<h2>${PERSONALDATA.description}</h2>
+<h2>Why me?${PERSONALDATA.cuttingEdge}</h2>
                         
-<p>Based in ${personalData.city}</p>
+<p>Based in ${PERSONALDATA.city}</p>
 
 <ul>
 <li>
-<a href="${personalData.githubProfile}">
-<img src="${githubIcon}" alt="GitHub Icon" />
+<a href="${PERSONALDATA.githubProfile}">
+<img src="/icons/github-icon.png" alt="GitHub Icon" />
 </a>
 </li>
 <li>
-<a href="${personalData.linkedinProfile}">
-<img src="${linkedinIcon}" alt="LinkedIn Icon" />
+<a href="${PERSONALDATA.linkedinProfile}">
+<img src="/icons/linkedin-icon.png" alt="LinkedIn Icon" />
 </a>
 </li>
 </ul>
 
 `
 }
-
-renderHome() 
 
 

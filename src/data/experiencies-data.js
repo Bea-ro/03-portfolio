@@ -1,7 +1,7 @@
 export const EXPERIENCIES = [
     { position: "Communication Manager",
       date: "May 2018 – October 2022",
-      logo: './assets/images/down-madrid-logo.png',
+      logo: '../../public/logos/down-madrid-logo.png',
       organization: "Fundación Síndrome de Down de Madrid",
       description: "Comunication Strategy building align with Foundation Strategic Plan.",
       responsabilities: [
@@ -15,7 +15,7 @@ export const EXPERIENCIES = [
       position: "Marketing Product Manager",
       date: "Jan 2012 – May 2018",
       organization: "Estée Lauder Companies",
-      logo: './assets/images/estee-lauder-logo.svg',
+      logo: '../../public/logos/estee-lauder-logo.svg',
       description: "Management of M·A·C Cosmetics products in Iberia.",
       responsabilities: [
         'Distribution and pricing strategy ensuring rentability',
@@ -29,7 +29,7 @@ export const EXPERIENCIES = [
       position: "Sales and Marketing Assistant",
       date: "Jun 2005 – Dec 2011",
       organization: "M·A·C Cosmetics",
-      logo: './assets/images/mac-cosmetics-logo.png',
+      logo: '../../public/logos/mac-cosmetics-logo.png',
       description: "Assistance in sales and marketing management with over 80 points of sale and over two thousand products line-up.",
       responsabilities: [
         'Sales reporting to local and EMEA Managers', 
@@ -44,7 +44,7 @@ export const EXPERIENCIES = [
       position: "Marketing and Communication Intern",
       date: "Jun 2004 – May 2005",
       organization: "Estée Lauder Companies",
-      logo: './assets/images/mac-cosmetics-logo.png',
+      logo: '../../public/logos/mac-cosmetics-logo.png',
       description: "Administrative assistance in Marketing and Communication areas",
       responsabilities: [
         'Data basing and reporting',
@@ -59,7 +59,7 @@ export const EXPERIENCIES = [
       position: "Trade Promoter",
       date: "Jun 2003 – May 2004",
       organization: "Grupo TEMA Marketing Integral",
-      logo: './assets/images/tem-logo.svg',
+      logo: '../../public/logos/tema-logo.svg',
       description: "Trade promotion of several brands throug Marketing Agency",
       responsabilities: [
         'Customer acquisition and engagement',

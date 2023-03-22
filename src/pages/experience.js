@@ -1,28 +1,35 @@
 import { EXPERIENCIES } from '../data/experiencies-data';
 
-const renderExperience = () => {
-    `
-    ${EXPERIENCE.forEach((experience) => {
-    "I'm lucky for working with brand leaders and institutional references:" 
-    experience.logo 
-    experience.organization
-    experience.organizationURL //enlace a web emp cuando click en los elementos
+const main = document.querySelector('main')
 
-    experience.position
-    experience.date
+export const renderExperience = () => {
+    main.innerHTML =
+    `
+    I'm lucky of working with brand leaders and institutional references:
     
-    experience.description
+    ${EXPERIENCIES.forEach((experience) => {
     
-    experience.responsabilities.forEach((responsability) => {
+    `
+    <a href="${experience.organizationURL}">
+    <figure>
+    <img src="${experience.logo}" alt=${experience.organization} />
+    <h1>${experience.organization}</h1>
+    </figure>
+    </a>
     
-    })    
-    
+    <div>
+    <p>${experience.position}</p>
+    <p>${experience.date}</p>
+    <p>${experience.description}</p>
+    <ul>
+    ${experience.responsabilities.forEach((responsability) => {
+        `<li>${responsability}</li>`
+    })}
+    </ul>
+    </div>
+    `
     })
 }
 `    
 }
-
-
-
-renderExperience()
 

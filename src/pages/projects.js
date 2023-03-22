@@ -1,25 +1,35 @@
-//imágenes y al click web del proyecto.
 import { PROJECTS } from '../data/projects-data'
 
-const renderProjects = () => {
-PROJECTS.forEach((project)=> {
+const main = document.querySelector('main')
 
+export const renderProjects = () => {
+
+PROJECTS.forEach((project)=> {
+    main.innerHTML =
+    `
+    <a href="${project.projectURL}">
+    <figure>
+    <img src="${project.image}" alt=${project.name} />
+    <h1>${project.name}</h1>
+    </figure>
+    </a>
+    
+    <div>
+    <p>${project.tech}</p>
+    <p>${project.date}</p>
+    <p>${project.description}</p>
+    <ul>
+    ${project.requirements.forEach((requirement) => {
+        `<li>${requirement}</li>`
+    })}
+    </ul>
+    </div>
+    <a href="${project.github}">
+    <figure>
+    <img src="../../public/icons/github-icon" alt=${project.name} Project in GitHub/>
+    </figure>
+    </a>
+    `
 })  
   
-`
-project.image
-project.name
-project.description
-project.date
-
-project.tech.forEach
-
-project.requirements.forEach
-
-project.github
-project.projectURL
-
-`
 }
-
-renderProjects()

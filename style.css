@@ -9,14 +9,21 @@
 }
 
 :root {
-    --color-one: #8ecae6;
-    --color-two: #219ebc;
-    --color-three: #023047;
-    --color-four: #ffb703;
-    --color-five: #fb8500;
+    --color-light-blue: #8ecae6;
+    --color-blue: #219ebc;
+    --color-dark-blue: #023047;
+    --color-light-orange: #ffb703;
+    --color-orange: #fb8500;
     --color-black: #222;
     --color-white: white;
-    --font-size-xs: 0.7rem;
+    
+    --typography-typeface: 'Inter', sans-serif;
+--typography-h1: 1.9375rem;
+  --typography-h2: 1.5625rem;
+  --typography-h3: 1.25rem;
+  --typography-p : 1rem;
+  --typography-s : .8125rem;
+
   }
 
 * {

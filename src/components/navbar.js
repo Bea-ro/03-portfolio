@@ -1,13 +1,12 @@
-export const Navbar = () => {
-
-    `<nav>
+export const navbar = () => {
+    return `
+    <nav>
     <ul>
-    <li><a href="/home">Home</a></li>
-    <li><a href="/experience">Experience</a></li>
-    <li><a href="/projects">Projects</a></li>
+    <li><a href="/home" class="page-link" id="home-link">Home</a></li>
+    <li><a href="/experience" class="page-link" id="experience-link">Experience</a></li>
+    <li><a href="/projects" class="page-link" id="projects-link">Projects</a></li>
     </ul>
     </nav>
     `
-
 }
 
