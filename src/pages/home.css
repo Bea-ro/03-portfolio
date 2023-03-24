@@ -1,0 +1,65 @@
+main {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    padding: 54px 0 24px 24px;
+}
+
+h1 {
+    font-size: var(--typography-h1)
+}
+
+h2 {
+    font-size: var(--typography-h2)
+}
+
+h3 {
+font-size: var(--typography-h3);
+}
+
+.personal-description {
+    font-family: var(--typography-sec);
+}
+
+.personal-basic {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.personal-basic >h1 {
+    color: var(--color-green);
+    font-weight: bold;
+}
+
+.personal-why {
+    background-color: var(--color-green);
+    border-radius: 4%;    
+    padding: 24px 24px 24px 48px;
+    margin-left: 48px;
+    width: fit-content;
+    height: fit-content;
+    align-self: center;
+}
+
+.personal-why >h2, .personal-why li {
+    background-color: var(--color-green);
+}
+
+.personal-secondary {
+    padding: 48px 24px 0 24px;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: center;
+}
+
+.reason {
+list-style-type: disc;
+}
+
+.ul-social {
+display: flex;
+flex-direction: row;
+gap: 12px;
+}

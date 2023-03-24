@@ -1,44 +1,87 @@
-:@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Raleway:wght@200;400&display=swap');
 
 @font-face {
-    font-family: 'Inter', sans-serif;
-    src: url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;800&display=swap');
-    font-wight: 400;
-    font-style: normal;
-    font-size: 0.8rem
+  font-family: 'Poppins', sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Raleway:wght@200;400&display=swap');
+  font-weight: 400;
+  font-style: normal;
 }
 
 :root {
-    --color-light-blue: #8ecae6;
-    --color-blue: #219ebc;
-    --color-dark-blue: #023047;
-    --color-light-orange: #ffb703;
-    --color-orange: #fb8500;
-    --color-black: #222;
-    --color-white: white;
-    
-    --typography-typeface: 'Inter', sans-serif;
---typography-h1: 1.9375rem;
-  --typography-h2: 1.5625rem;
-  --typography-h3: 1.25rem;
-  --typography-p : 1rem;
-  --typography-s : .8125rem;
+  --color-grey: #282f39;
+  --color-yellow: #f9c216;
+  --color-grey-green: #456260;
+  --color-green: #4a993d;
+  --color-black: #222;
+  --color-white: #feffff;
+  --color-light-purple: #b490fe;
+  --color-purple: #ac85dd;
+  --color-green: #defc98;
+  --color-light: #c1c1c1;
 
-  }
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Inter', sans-serif;
+  --typography-typeface: 'Poppins', sans-serif;
+  --typography-sec: 'Raleway', sans-serif;
+  --typography-h1: 2.3rem;
+  --typography-h2: 2rem;
+  --typography-h3: 1.75rem;
+  --typography-s: 0.8125rem;
 }
 
-a {
-  text-decoration: none;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: var(--typography-typeface);
+}
+
+body {
+  background-color: var(--color-purple)
+}
+
+main {
+  background-color: var(--color-light-purple)
+}
+
+header {
+  padding: 24px 54px 24px 0px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: large;
+}
+
+nav {
+  color: var(--color-green);
+  transition: var(--transition);
+  opacity: 0.95;
+  text-transform: uppercase;
+}
+
+.ul-navbar {
+  display: flex;
+  flex-direction: row;
+  gap: 48px;
 }
 
 li {
   list-style-type: none;
+ 
 }
 
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: var(--color-green);
+  font-style: bold;
+}
 
+.social-icon {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
+footer {
+  font-size: var(--typography-s);
+  text-align: center;
+  padding: 16px 0;
+}

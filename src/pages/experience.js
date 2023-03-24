@@ -1,16 +1,16 @@
+import './experience.css';
 import { EXPERIENCIES } from '../data/experiencies-data';
 
-const main = document.querySelector('main')
+const main = document.querySelector('main');
 
 export const renderExperience = () => {
-    main.innerHTML =
-    `
-    I'm lucky of working with brand leaders and institutional references:
+  main.innerHTML = `
+    <p>I'm lucky of working with brand leaders and institutional references:</p>
+    <ul class="experiences-list">  
+    ${EXPERIENCIES.map((experience) => `
+<li class="experience-card">
     
-    ${EXPERIENCIES.forEach((experience) => {
-    
-    `
-    <a href="${experience.organizationURL}">
+<a href="${experience.organizationURL}">
     <figure>
     <img src="${experience.logo}" alt=${experience.organization} />
     <h1>${experience.organization}</h1>
@@ -22,14 +22,11 @@ export const renderExperience = () => {
     <p>${experience.date}</p>
     <p>${experience.description}</p>
     <ul>
-    ${experience.responsabilities.forEach((responsability) => {
-        `<li>${responsability}</li>`
-    })}
+    ${experience.responsabilities.forEach((responsability) => `<li>${responsability}</li>`)}
     </ul>
     </div>
-    `
-    })
-}
-`    
-}
-
+    </li>
+    `).join('')};
+    </ul> 
+`;
+};

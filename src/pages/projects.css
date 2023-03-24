@@ -1,0 +1,17 @@
+img {
+    width: 75%;
+    height: 75%;
+    border-radius: 2%
+}
+
+.projects-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 24px;
+    width: 100vw;
+}
+
+.project-card {
+
+}
