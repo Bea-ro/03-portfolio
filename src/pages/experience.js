@@ -5,28 +5,32 @@ const main = document.querySelector('main');
 
 export const renderExperience = () => {
   main.innerHTML = `
-    <p>I'm lucky of working with brand leaders and institutional references:</p>
+  <section class="experience-container">
+    <h3 class="title">Work with brand leaders and institutional references</h3>
+
     <ul class="experiences-list">  
     ${EXPERIENCIES.map((experience) => `
 <li class="experience-card">
     
 <a href="${experience.organizationURL}">
-    <figure>
-    <img src="${experience.logo}" alt=${experience.organization} />
-    <h1>${experience.organization}</h1>
+<figure class="logo">
+    <img src="${experience.logo}" alt=${experience.organization}/>
     </figure>
     </a>
     
     <div>
+    <h3>${experience.organization}</h3>
     <p>${experience.position}</p>
     <p>${experience.date}</p>
     <p>${experience.description}</p>
+    <span class="skills">Skills</span>
     <ul>
-    ${experience.responsabilities.forEach((responsability) => `<li>${responsability}</li>`)}
+    ${experience.responsabilities.map((responsability) => `<li>${responsability}</li>`).join('')}
     </ul>
     </div>
     </li>
-    `).join('')};
-    </ul> 
+    `).join('')}
+    </ul>
+    </section> 
 `;
 };

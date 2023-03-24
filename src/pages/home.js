@@ -9,11 +9,15 @@ const main = document.querySelector('main');
 
 export const renderHome = () => {
   main.innerHTML = `
-
 <article>
+<div>
 <section class="personal-basic">
 <h3>${PERSONALDATA.name} ${PERSONALDATA.surname}</h3>           
-<h1>${PERSONALDATA.occupation}</h1>
+<h1 class="occupation">${PERSONALDATA.occupation}</h1>
+<ul>
+${PERSONALDATA.techs.map((tech) => `<li class="reason">${tech}</li>`).join('')
+}
+</ul> 
 <h2 class="personal-description">${PERSONALDATA.description}</h2>
 </section>
 
@@ -32,15 +36,26 @@ export const renderHome = () => {
 </li>
 </ul>
 </section>               
-</article>
+</div>
 
-<section class="personal-why">
+<section class="why-container">
+<div class="personal-why">
 <h2>Why me?</h2>
 <ul>
 ${PERSONALDATA.cuttingEdge.map((reason) => `<li class="reason">${reason}</li>`).join('')
 }
 </ul> 
-</section>               
+</div>
 
+<div class="personal-why">
+<h2>Why you?</h2>
+<ul>
+${PERSONALDATA.insights.map((insight) => `<li class="reason">${insight}</li>`).join('')
+}
+</ul> 
+</div>
+</section>              
+
+</article>
 `;
 };

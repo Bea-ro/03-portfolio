@@ -17,7 +17,7 @@ export const EXPERIENCIES = [
     position: 'Marketing Product Manager',
     date: 'Jan 2012 – May 2018',
     organization: 'Estée Lauder Companies',
-    logo: '../../public/logos/estee-lauder-logo.svg',
+    logo: '../../public/logos/estee-lauder-logo.png',
     description: 'Management of M·A·C Cosmetics products in Iberia.',
     responsabilities: [
       'Distribution and pricing strategy ensuring rentability',
@@ -62,7 +62,7 @@ export const EXPERIENCIES = [
     position: 'Trade Promoter',
     date: 'Jun 2003 – May 2004',
     organization: 'Grupo TEMA Marketing Integral',
-    logo: '../../public/logos/tema-logo.svg',
+    logo: '../../public/logos/tema-logo.png',
     description: 'Trade promotion of several brands throug Marketing Agency',
     responsabilities: ['Customer acquisition and engagement', 'Product demonstration'],
     organizationURL: 'https://www.temapromotion.com/',

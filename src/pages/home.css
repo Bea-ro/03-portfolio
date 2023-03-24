@@ -1,4 +1,4 @@
-main {
+article {
     display: grid;
     grid-template-columns: 60% 40%;
     padding: 54px 0 24px 24px;
@@ -16,10 +16,6 @@ h3 {
 font-size: var(--typography-h3);
 }
 
-.personal-description {
-    font-family: var(--typography-sec);
-}
-
 .personal-basic {
     padding: 24px;
     display: flex;
@@ -32,14 +28,22 @@ font-size: var(--typography-h3);
     font-weight: bold;
 }
 
+.occupation, .personal-why >h2 {
+    text-transform: uppercase;
+}
+
+.why-container {
+display: flex;
+flex-direction: column;
+gap: 24px;    
+}
+
 .personal-why {
     background-color: var(--color-green);
     border-radius: 4%;    
-    padding: 24px 24px 24px 48px;
-    margin-left: 48px;
+    padding: 24px 54px;
     width: fit-content;
     height: fit-content;
-    align-self: center;
 }
 
 .personal-why >h2, .personal-why li {

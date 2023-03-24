@@ -8,16 +8,12 @@
 }
 
 :root {
-  --color-grey: #282f39;
-  --color-yellow: #f9c216;
-  --color-grey-green: #456260;
-  --color-green: #4a993d;
-  --color-black: #222;
+    --color-black: #222;
   --color-white: #feffff;
   --color-light-purple: #b490fe;
   --color-purple: #ac85dd;
   --color-green: #defc98;
-  --color-light: #c1c1c1;
+  --color-light: #f4f3ea;
 
   --typography-typeface: 'Poppins', sans-serif;
   --typography-sec: 'Raleway', sans-serif;
@@ -74,6 +70,17 @@ a {
   font-style: bold;
 }
 
+.title {
+padding: 24px
+}
+
+.skills {
+  background-color: var(--color-green);
+  padding: 6px 8px;
+  border-radius: 20%;
+  cursor: pointer;
+  }
+  
 .social-icon {
   width: 24px;
   height: 24px;
