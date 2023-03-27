@@ -1,69 +1,94 @@
 article {
-    display: grid;
-    grid-template-columns: 60% 40%;
-    padding: 54px 0 24px 24px;
-}
-
-h1 {
-    font-size: var(--typography-h1)
-}
-
-h2 {
-    font-size: var(--typography-h2)
-}
-
-h3 {
-font-size: var(--typography-h3);
+  display: grid;
+  grid-template-columns: 60% 40%;
+  padding: 54px 0 24px 24px;
 }
 
 .personal-basic {
-    padding: 24px;
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
+  padding: 0 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 
-.personal-basic >h1 {
-    color: var(--color-green);
-    font-weight: bold;
+.personal-basic > h1 {
+  color: var(--color-green);
+  font-weight: bold;
 }
 
-.occupation, .personal-why >h2 {
-    text-transform: uppercase;
+.name,
+.why-title {
+  font-size: var(--typography-small);
 }
 
-.why-container {
-display: flex;
-flex-direction: column;
-gap: 24px;    
+.occupation,
+.why-container > h3 {
+  text-transform: uppercase;
 }
 
-.personal-why {
-    background-color: var(--color-green);
-    border-radius: 4%;    
-    padding: 24px 54px;
-    width: fit-content;
-    height: fit-content;
+.occupation {
+  font-size: var(--typography-large);
 }
 
-.personal-why >h2, .personal-why li {
-    background-color: var(--color-green);
+.techs-list {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: -22px;
+  left: 22px;
+  gap: 12px;
+}
+
+.tech {
+  height: 40px;
+  width: 40px;
+}
+
+.techs-list li:last-child {
+  width: 116px;
+}
+
+.techs-list li:nth-child(2),
+.techs-list li:first-child {
+  height: 48px;
+}
+
+.personal-description {
+  font-size: var(--typography-medium);
 }
 
 .personal-secondary {
-    padding: 48px 24px 0 24px;
-    display: flex;
-    flex-direction: row;
-    gap: 24px;
-    align-items: center;
-}
-
-.reason {
-list-style-type: disc;
+  padding: 46px 24px 0 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: center;
 }
 
 .ul-social {
-display: flex;
-flex-direction: row;
-gap: 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+.why-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  background-color: var(--color-green);
+  border-radius: 4%;
+  justify-content: center;
+  margin-right: 48px;
+  padding-left: 54px;
+}
+
+.reason:before,
+.insight:before {
+  content: '\25b7';
+  padding-right: 15px;
+}
+
+.reasons-list,
+.insights-list {
+  padding-left: 26px;
 }

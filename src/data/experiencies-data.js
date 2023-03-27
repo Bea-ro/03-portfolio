@@ -9,9 +9,9 @@ export const EXPERIENCIES = [
       'Ensure compliance of the Foundation purpose',
       'Reputation safeguard',
       'Social Media management',
-      'Website administration',
+      'Website administration'
     ],
-    organizationURL: 'https://downmadrid.org/',
+    organizationURL: 'https://downmadrid.org/'
   },
   {
     position: 'Marketing Product Manager',
@@ -23,9 +23,9 @@ export const EXPERIENCIES = [
       'Distribution and pricing strategy ensuring rentability',
       'Forecast and stock control',
       'Results, consummer insights, competitors and sector trends analysis to seize all opportinity growth',
-      'Visual Merchandising and promotional campaings implementation',
+      'Visual Merchandising and promotional campaings implementation'
     ],
-    organizationURL: 'https://www.esteelauder.es/',
+    organizationURL: 'https://www.esteelauder.es/'
   },
   {
     position: 'Sales and Marketing Assistant',
@@ -39,32 +39,32 @@ export const EXPERIENCIES = [
       'Product distribution to Iberia retailers',
       'Product line-up update',
       'Retail Managers and Manager Retail Operations support',
-      'Store openings and stores housekeeping coordination',
+      'Store openings and stores housekeeping coordination'
     ],
-    organizationURL: 'https://www.maccosmetics.es',
+    organizationURL: 'https://www.maccosmetics.es'
   },
   {
     position: 'Marketing and Communication Intern',
     date: 'Jun 2004 – May 2005',
     organization: 'Estée Lauder Companies',
     logo: '../../public/logos/mac-cosmetics-logo.png',
-    description: 'Administrative assistance in Marketing and Communication areas',
+    description: 'Administrative assistance in Marketing and Communication areas.',
     responsabilities: [
       'Data basing and reporting',
       'Sales tracking in Excel',
       'Press coverage follow-up',
       'Press releases translation',
-      'Other administrative responsabilities',
+      'Other administrative responsabilities'
     ],
-    organizationURL: 'https://www.maccosmetics.es/',
+    organizationURL: 'https://www.maccosmetics.es/'
   },
   {
     position: 'Trade Promoter',
     date: 'Jun 2003 – May 2004',
     organization: 'Grupo TEMA Marketing Integral',
     logo: '../../public/logos/tema-logo.png',
-    description: 'Trade promotion of several brands throug Marketing Agency',
+    description: 'Trade promotion of several brands throug Marketing Agency.',
     responsabilities: ['Customer acquisition and engagement', 'Product demonstration'],
-    organizationURL: 'https://www.temapromotion.com/',
-  },
+    organizationURL: 'https://www.temapromotion.com/'
+  }
 ];

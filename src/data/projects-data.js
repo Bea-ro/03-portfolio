@@ -2,15 +2,15 @@ export const PROJECTS = [
   {
     image: '../../public/images/responsive-project.png',
     name: 'Responsive Webpage',
-    description: 'Creation of a responsive webpage using HTML and CSS.',
+    description: 'Responsive webpage created with HTML and CSS.',
     date: 'February 2023',
     techs: ['HTML5', 'CSS3'],
     requirements: [
       'semantic elements',
-      'use of navbars and unordered lists',
+      'use of navbars and lists',
       'variables declaration',
       'flex and grid positioning',
-      'media queries for appropiate performance in mobile, tablet and desktop'
+      'media queries for mobile, tablet and desktop'
     ],
     github: 'https://github.com/Bea-ro/01-responsive-webpage',
     projectURL: 'https://hm-home.netlify.app/'
@@ -18,15 +18,15 @@ export const PROJECTS = [
   {
     image: '../../public/images/dynamic-shop-project.png',
     name: 'Dynamic Shop',
-    description: 'Creation of a responsive and dynamic shop using JavaScript DOM',
+    description: 'Dynamic and responsive shop created using JavaScript DOM.',
     date: 'February 2023',
-    techs: ['JavaScript DOM', 'CSS3'],
+    techs: ['JavaScript', 'CSS3'],
     requirements: [
-      'use of tag templates for a dynamic HTML',
+      'tag templates for a dynamic HTML',
       'loops and iteration',
       'filters',
       'event handling',
-      'media queries for appropiate performance in mobile and desktop'
+      'media queries for mobile and desktop'
     ],
     github: 'https://github.com/Bea-ro/02-dynamic-shop-review',
     projectURL: 'https://pc-componentes-filters-review.netlify.app/'
@@ -34,14 +34,14 @@ export const PROJECTS = [
   {
     image: '../../public/images/color-flipper-project.png',
     name: 'Color Flipper',
-    description: 'Creation of a dynamic color flipper using Vite',
+    description: 'Dynamic color flipper created with Vite.',
     date: 'December 2022',
-    techs: ['HTML5, CSS3', 'JavaScript DOM'],
+    techs: ['HTML5', 'CSS3', 'JavaScript'],
     requirements: [
       'dynamic HTML with JavaScript DOM',
       'select type input',
       'loops and iteration',
-      'event handling',
+      'event handling'
     ],
     github: 'https://github.com/Bea-ro/color-flipper',
     projectURL: 'https://color-flipper-bea.netlify.app/'
@@ -49,9 +49,9 @@ export const PROJECTS = [
   {
     image: '#',
     name: 'Dynamic Portfolio',
-    description: 'Creation of a dynamic personal portfolio using Vite',
+    description: 'Dynamic personal portfolio created with JavaScript DOM.',
     date: 'February 2023',
-    techs: ['CSS3', 'HTML5', 'JavaScript DOM'],
+    techs: ['CSS3', 'HTML5', 'JavaScript'],
     requirements: [
       'dynamic HTML with JavaScript DOM',
       'navigation emulation in a SPA',
@@ -59,21 +59,21 @@ export const PROJECTS = [
       'colorful and appropiate color range'
     ],
     github: '#',
-    projectURL: '#',
+    projectURL: '#'
   },
   {
     image: '../../public/images/star-wars-project.png',
     name: 'Star Wars',
-    description: 'Creation of a dynamic webpage using and API',
+    description: 'Dynamic webpage getting data from and API.',
     date: 'December 2022',
-    techs: ['HTML5', 'CSS3', 'JavaScript DOM'],
+    techs: ['HTML5', 'CSS3', 'JavaScript'],
     requirements: [
       'dynamic HTML with JavaScript DOM',
       'navigation emulation in a SPA',
       'event handling',
-      'style',
+      'style'
     ],
     github: 'https://github.com/Bea-ro/star-wars-api',
     projectURL: 'https://my-star-wars-api.netlify.app'
-  },
+  }
 ];

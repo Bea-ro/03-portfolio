@@ -6,8 +6,8 @@ import { renderExperience } from './src/pages/experience';
 const main = document.querySelector('main');
 
 const handleClic = (ev) => {
-  ev.preventDefault(); // para que el link no cargue la URL a la que apunta
-  const linkHref = ev.target.href; // Almacena la URL en una constante
+  ev.preventDefault();
+  const linkHref = ev.target.href;
   main.innerHTML = ' ';
   if (linkHref.includes('home')) {
     main.innherHTML = renderHome();

@@ -1,15 +1,15 @@
 .experience-container {
-    display: grid;
-    grid-template-columns: 35% 75%;
-    grid-gap: 24px;
-    padding: 0 24px 24px 24px;
+  display: grid;
+  grid-template-columns: 35% 65%;
+  grid-gap: 24px;
+  padding: 0 24px 24px 24px;
 }
 
 .experiences-list {
-   padding: 24px;
-   margin: 24px 24px 0 0;
-   border-radius: 2%;
-   background-color: var(--color-light);
+  padding: 24px;
+  margin: 24px 24px 0 0;
+  border-radius: 2%;
+  background-color: var(--color-light);
 }
 
 .experience-card {
@@ -17,4 +17,42 @@
   grid-template-columns: 1fr 4fr;
   grid-gap: 24px;
   padding-bottom: 24px;
+}
+
+.organization {
+  font-size: 1.2rem;
+}
+
+.position {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.experience-description {
+  position: relative;
+  top: 8px;
+}
+
+#experience-skills {
+  margin-top: 22px;
+}
+
+.responsabilities-list {
+  pointer-events: none;
+  display: none;
+}
+
+.responsability:before {
+  content: '\25b7 ';
+}
+
+[class~='show'] {
+  pointer-events: auto;
+  display: block;
+  border: var(--border-purple);
+  border-radius: 4px;
+  background-color: var(--color-white);
+  margin: 12px 0;
+  padding: 12px 12px 12px 16px;
+  width: fit-content;
 }

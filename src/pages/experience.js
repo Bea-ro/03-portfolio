@@ -9,7 +9,8 @@ export const renderExperience = () => {
     <h3 class="title">Work with brand leaders and institutional references</h3>
 
     <ul class="experiences-list">  
-    ${EXPERIENCIES.map((experience) => `
+    ${EXPERIENCIES.map(
+      (experience) => `
 <li class="experience-card">
     
 <a href="${experience.organizationURL}">
@@ -19,18 +20,30 @@ export const renderExperience = () => {
     </a>
     
     <div>
-    <h3>${experience.organization}</h3>
-    <p>${experience.position}</p>
-    <p>${experience.date}</p>
-    <p>${experience.description}</p>
-    <span class="skills">Skills</span>
-    <ul>
-    ${experience.responsabilities.map((responsability) => `<li>${responsability}</li>`).join('')}
+    <h2 class="organization">${experience.organization}</h2>
+    <p class="position">${experience.position}</p>
+    <p class="date">${experience.date}</p>
+    <p class="experience-description">${experience.description}</p>
+    <button class="skills" id="experience-skills">See responsabilities</button>
+    <ul class="responsabilities-list">
+    ${experience.responsabilities
+      .map((responsability) => `<li class="responsability">${responsability}</li>`)
+      .join('')}
     </ul>
     </div>
     </li>
-    `).join('')}
+    `
+    ).join('')}
     </ul>
     </section> 
 `;
+
+  const showSkills = (event) => {
+    const experienceCard = event.target.closest('.experience-card');
+    experienceCard.querySelector('.responsabilities-list').classList.toggle('show');
+  };
+
+  const skillsButtons = document.querySelectorAll('.skills');
+
+  skillsButtons.forEach((skillButton) => skillButton.addEventListener('click', showSkills));
 };

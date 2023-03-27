@@ -8,7 +8,7 @@
 }
 
 :root {
-    --color-black: #222;
+  --color-black: #222;
   --color-white: #feffff;
   --color-light-purple: #b490fe;
   --color-purple: #ac85dd;
@@ -16,11 +16,12 @@
   --color-light: #f4f3ea;
 
   --typography-typeface: 'Poppins', sans-serif;
-  --typography-sec: 'Raleway', sans-serif;
-  --typography-h1: 2.3rem;
-  --typography-h2: 2rem;
-  --typography-h3: 1.75rem;
-  --typography-s: 0.8125rem;
+  --typography-large: 2.3rem;
+  --typography-medium: 2rem;
+  --typography-small: 1.75rem;
+  --typography-xs: 0.8125rem;
+
+  --border-purple: 1px solid var(--color-purple);
 }
 
 * {
@@ -31,11 +32,11 @@
 }
 
 body {
-  background-color: var(--color-purple)
+  background-color: var(--color-purple);
 }
 
 main {
-  background-color: var(--color-light-purple)
+  background-color: var(--color-light-purple);
 }
 
 header {
@@ -46,10 +47,12 @@ header {
 }
 
 nav {
-  color: var(--color-green);
-  transition: var(--transition);
-  opacity: 0.95;
+  transform: scale(1.1);
   text-transform: uppercase;
+}
+
+nav a {
+  color: var(--color-green);
 }
 
 .ul-navbar {
@@ -60,27 +63,29 @@ nav {
 
 li {
   list-style-type: none;
- 
 }
 
 a {
   text-decoration: none;
   cursor: pointer;
-  color: var(--color-green);
+  color: var(--color-black);
   font-style: bold;
 }
 
 .title {
-padding: 24px
+  padding: 24px 24px 24px 48px;
+  font-size: var(--typography-small);
 }
 
 .skills {
   background-color: var(--color-green);
-  padding: 6px 8px;
-  border-radius: 20%;
+  padding: 6px 12px;
+  border-radius: 6px;
   cursor: pointer;
-  }
-  
+  text-transform: uppercase;
+  border: var(--border-purple);
+}
+
 .social-icon {
   width: 24px;
   height: 24px;
@@ -88,7 +93,7 @@ padding: 24px
 }
 
 footer {
-  font-size: var(--typography-s);
+  font-size: var(--typography-xs);
   text-align: center;
   padding: 16px 0;
 }
