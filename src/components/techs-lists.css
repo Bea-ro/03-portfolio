@@ -1,0 +1,42 @@
+.techs-list {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: -22px;
+    left: 22px;
+    gap: 12px;
+  }
+  
+  .tech {
+    height: 40px;
+    width: 40px;
+  }
+  
+  .techs-list li:last-child {
+    width: 116px;
+  }
+  
+  .techs-list li:nth-child(2),
+  .techs-list li:first-child {
+    height: 48px;
+  }
+
+  .experience-techs {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 0 0 48px
+  }
+  
+  .experience-tech {
+    height: 40px;
+    width: 40px;
+  }
+  
+  #sap-icon {
+    width: 60px
+  }
+  
+  #canva-icon {
+    border-radius: 50%
+  }

@@ -1,5 +1,3 @@
-
-
 article {
   display: grid;
   grid-template-columns: 60% 40%;
@@ -32,29 +30,6 @@ article {
   font-size: var(--typography-large);
 }
 
-.techs-list {
-  display: flex;
-  align-items: center;
-  position: relative;
-  top: -22px;
-  left: 22px;
-  gap: 12px;
-}
-
-.tech {
-  height: 40px;
-  width: 40px;
-}
-
-.techs-list li:last-child {
-  width: 116px;
-}
-
-.techs-list li:nth-child(2),
-.techs-list li:first-child {
-  height: 48px;
-}
-
 .personal-description {
   font-size: var(--typography-medium);
 }
@@ -85,13 +60,11 @@ article {
   animation: var(--animation-slide-in)
 }
 
-.reason:before,
-.insight:before {
+.reason:before {
   content: '\25b7';
   padding-right: 15px;
 }
 
-.reasons-list,
-.insights-list {
+.reasons-list {
   padding-left: 26px;
 }

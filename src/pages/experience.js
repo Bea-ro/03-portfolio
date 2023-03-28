@@ -1,5 +1,6 @@
 import './experience.css';
 import { EXPERIENCIES } from '../data/experiencies-data';
+import { experienceTechsList } from '../components/techs-lists';
 
 const main = document.querySelector('main');
 
@@ -9,17 +10,7 @@ export const renderExperience = () => {
   <div class="experience-header">
     <h1 class="title">Work with brand leaders and institutional references</h1>
     <h2 class="subtitle">Marketing background</h2>
-    <ul class="experience-techs">
-<li class="experience-tech">
-<img src='../../public/icons/wp-icon.png' alt="Wordpress Icon" class="tech-icon"/>
-</li>
-<li class="experience-tech">
-<img src='../../public/icons/canva-icon.png' alt="Canva Icon" class="tech-icon"/>
-</li>
-<li class="experience-tech">
-<img src='../../public/icons/sap-icon.png' alt="Canva Icon" class="tech-icon"/>
-</li>
-</ul> 
+    ${experienceTechsList}
 </div>
     <ul class="experiences-list">  
     ${EXPERIENCIES.map(
@@ -33,7 +24,9 @@ export const renderExperience = () => {
     </a>
     
     <div>
+    <a href="${experience.organizationURL}" target="blank" rel="noopener noreferrer">
     <h2 class="organization">${experience.organization}</h2>
+    </a>
     <p class="position">${experience.position}</p>
     <p class="date">${experience.date}</p>
     <p class="experience-description">${experience.description}</p>

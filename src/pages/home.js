@@ -1,5 +1,7 @@
 import './home.css';
 import { PERSONALDATA } from '../data/personal-data';
+import { techsList } from '../components/techs-lists';
+import { mapData } from '../utils/map';
 
 const main = document.querySelector('main');
 
@@ -10,15 +12,7 @@ export const renderHome = () => {
 <section class="personal-basic">
 <h3 class="name">${PERSONALDATA.name} ${PERSONALDATA.surname}</h3>           
 <h1 class="occupation">${PERSONALDATA.occupation}</h1>
-<ul class="techs-list">
-${PERSONALDATA.techs
-  .map(
-    (tech) => `<li class="tech">
-<img src=${tech.icon} alt=${tech.name} class="tech-icon"/>
-</li>`
-  )
-  .join('')}
-</ul> 
+${techsList}
 <h2 class="personal-description">${PERSONALDATA.description}</h2>
 </section>
 
@@ -46,11 +40,11 @@ ${PERSONALDATA.techs
 <section class="why-container">
 <h3 class="why-title">Why me?</h3>
 <ul class="reasons-list">
-${PERSONALDATA.cuttingEdge.map((reason) => `<li class="reason">${reason}</li>`).join('')}
+${mapData(PERSONALDATA.reasons)}
 </ul> 
 <h3 class="why-title">Why coding?</h3>
-<ul class="insights-list">
-${PERSONALDATA.insights.map((insight) => `<li class="insight">${insight}</li>`).join('')}
+<ul class="reasons-list">
+${mapData(PERSONALDATA.insights)}
 </ul> 
 </section>              
 </article>

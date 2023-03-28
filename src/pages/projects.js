@@ -1,26 +1,16 @@
 import './projects.css';
 import { PROJECTS } from '../data/projects-data';
 import { PERSONALDATA } from '../data/personal-data';
+import { techsList } from '../components/techs-lists';
 
 const main = document.querySelector('main');
 
 export const renderProjects = (list) => {
   main.innerHTML = `
   <h1 class="subtitle" id="projects-subtitle">My first projects</h1>
-  
   <div class="filter">
-  <p class="filter-title">Filter by technology:</p>
- 
-  <ul class="techs-list" id="projects-techs-list">
-${PERSONALDATA.techs
-  .map(
-    (tech) => `<li class="tech">
-<img src=${tech.icon} alt=${tech.name} class="tech-icon"/>
-</li>`
-  )
-  .join('')}
-
-  </ul>
+  <p class="filter-title">Filter by language or technology:</p>
+  ${techsList}
 </div> 
 
 <ul class="projects-list">
@@ -36,7 +26,7 @@ ${PERSONALDATA.techs
         </a>
         
         <div class="project-areas">
-        <ul class="project-techs-list">
+        <ul class="project-techs">
         ${PERSONALDATA.techs.map((tech) => {
             if (project.techs.includes(tech.name)) {
             return `<li class="tech"><img src=${tech.icon} alt=${tech.name} class="tech-icon"/></li>`;
@@ -96,4 +86,6 @@ ${PERSONALDATA.techs
   const techIcons = document.querySelectorAll('.tech-icon');
 
   techIcons.forEach((techIcon) => techIcon.addEventListener('click', handleFilter));
+
+  document.querySelector('.techs-list').id = 'projects-techs-list';
 };

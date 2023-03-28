@@ -59,7 +59,7 @@ top: 0
   border-radius: 3px;
 }
 
-.project-techs-list {
+.project-techs {
   display: flex;
   flex-direction: row;
 }
