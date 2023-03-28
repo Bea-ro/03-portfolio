@@ -10,10 +10,10 @@ export const PROJECTS = [
       'use of navbars and lists',
       'variables declaration',
       'flex and grid positioning',
-      'media queries for mobile, tablet and desktop'
+      'media queries for mobile, tablet and desktop',
     ],
     github: 'https://github.com/Bea-ro/01-responsive-webpage',
-    projectURL: 'https://hm-home.netlify.app/'
+    projectURL: 'https://hm-home.netlify.app/',
   },
   {
     image: '../../public/images/dynamic-shop-project.png',
@@ -26,7 +26,7 @@ export const PROJECTS = [
       'loops and iteration',
       'filters',
       'event handling',
-      'media queries for mobile and desktop'
+      'media queries for mobile and desktop',
     ],
     github: 'https://github.com/Bea-ro/02-dynamic-shop-review',
     projectURL: 'https://pc-componentes-filters-review.netlify.app/'
@@ -41,13 +41,13 @@ export const PROJECTS = [
       'dynamic HTML with JavaScript DOM',
       'select type input',
       'loops and iteration',
-      'event handling'
+      'event handling',
     ],
     github: 'https://github.com/Bea-ro/color-flipper',
-    projectURL: 'https://color-flipper-bea.netlify.app/'
+    projectURL: 'https://color-flipper-bea.netlify.app/',
   },
   {
-    image: '#',
+    image: '../../public/images/portfolio-project.png',
     name: 'Dynamic Portfolio',
     description: 'Dynamic personal portfolio created with JavaScript DOM.',
     date: 'February 2023',
@@ -56,10 +56,10 @@ export const PROJECTS = [
       'dynamic HTML with JavaScript DOM',
       'navigation emulation in a SPA',
       'event handling',
-      'colorful and appropiate color range'
+      'colorful and appropiate color range',
     ],
-    github: '#',
-    projectURL: '#'
+    github: 'https://github.com/Bea-ro/03-portfolio',
+    projectURL: '#',
   },
   {
     image: '../../public/images/star-wars-project.png',
@@ -71,9 +71,9 @@ export const PROJECTS = [
       'dynamic HTML with JavaScript DOM',
       'navigation emulation in a SPA',
       'event handling',
-      'style'
+      'style',
     ],
     github: 'https://github.com/Bea-ro/star-wars-api',
-    projectURL: 'https://my-star-wars-api.netlify.app'
+    projectURL: 'https://my-star-wars-api.netlify.app',
   }
 ];

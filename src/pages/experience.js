@@ -6,14 +6,27 @@ const main = document.querySelector('main');
 export const renderExperience = () => {
   main.innerHTML = `
   <section class="experience-container">
-    <h3 class="title">Work with brand leaders and institutional references</h3>
-
+  <div class="experience-header">
+    <h1 class="title">Work with brand leaders and institutional references</h1>
+    <h2 class="subtitle">Marketing background</h2>
+    <ul class="experience-techs">
+<li class="experience-tech">
+<img src='../../public/icons/wp-icon.png' alt="Wordpress Icon" class="tech-icon"/>
+</li>
+<li class="experience-tech">
+<img src='../../public/icons/canva-icon.png' alt="Canva Icon" class="tech-icon"/>
+</li>
+<li class="experience-tech">
+<img src='../../public/icons/sap-icon.png' alt="Canva Icon" class="tech-icon"/>
+</li>
+</ul> 
+</div>
     <ul class="experiences-list">  
     ${EXPERIENCIES.map(
       (experience) => `
 <li class="experience-card">
     
-<a href="${experience.organizationURL}">
+<a href="${experience.organizationURL}" target="blank" rel="noopener noreferrer">
 <figure class="logo">
     <img src="${experience.logo}" alt=${experience.organization}/>
     </figure>

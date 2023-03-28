@@ -7,6 +7,15 @@
   font-style: normal;
 }
 
+@keyframes slide-in {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
 :root {
   --color-black: #222;
   --color-white: #feffff;
@@ -19,9 +28,11 @@
   --typography-large: 2.3rem;
   --typography-medium: 2rem;
   --typography-small: 1.75rem;
-  --typography-xs: 0.8125rem;
+  --typography-xs: 1.2rem;
+  --typography-xxs: 0.8125rem;
 
   --border-purple: 1px solid var(--color-purple);
+  --animation-slide-in: slide-in .5s ease-in-out;
 }
 
 * {
@@ -51,8 +62,9 @@ nav {
   text-transform: uppercase;
 }
 
-nav a {
+nav a, footer a {
   color: var(--color-green);
+  font-weight: bold;
 }
 
 .ul-navbar {
@@ -73,8 +85,16 @@ a {
 }
 
 .title {
-  padding: 24px 24px 24px 48px;
+  padding: 24px;
   font-size: var(--typography-small);
+}
+
+.subtitle {
+  padding-left: 24px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: var(--color-green);
+  font-size: var(--typography-large);
 }
 
 .skills {
@@ -93,7 +113,7 @@ a {
 }
 
 footer {
-  font-size: var(--typography-xs);
+  font-size: var(--typography-xxs);
   text-align: center;
   padding: 16px 0;
 }

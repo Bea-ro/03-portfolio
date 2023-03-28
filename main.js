@@ -2,6 +2,7 @@ import './style.css';
 import { renderHome } from './src/pages/home';
 import { renderProjects } from './src/pages/projects';
 import { renderExperience } from './src/pages/experience';
+import { PROJECTS } from './src/data/projects-data';
 
 const main = document.querySelector('main');
 
@@ -14,7 +15,7 @@ const handleClic = (ev) => {
   } else if (linkHref.includes('experience')) {
     main.innherHTML = renderExperience();
   } else if (linkHref.includes('projects')) {
-    main.innherHTML = renderProjects();
+    main.innherHTML = renderProjects(PROJECTS);
   }
 };
 

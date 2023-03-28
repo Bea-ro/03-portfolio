@@ -8,8 +8,9 @@
 .experiences-list {
   padding: 24px;
   margin: 24px 24px 0 0;
-  border-radius: 2%;
+  border-radius: 12px;
   background-color: var(--color-light);
+  animation: var(--animation-slide-in)
 }
 
 .experience-card {
@@ -20,7 +21,7 @@
 }
 
 .organization {
-  font-size: 1.2rem;
+  font-size: var(--typography-xs);
 }
 
 .position {
@@ -43,16 +44,28 @@
 }
 
 .responsability:before {
-  content: '\25b7 ';
+  content: '\25b7  ';
 }
 
 [class~='show'] {
   pointer-events: auto;
   display: block;
   border: var(--border-purple);
-  border-radius: 4px;
+  border-radius: 6px;
   background-color: var(--color-white);
   margin: 12px 0;
   padding: 12px 12px 12px 16px;
   width: fit-content;
+}
+
+.experience-techs {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 0 0 48px
+}
+
+.experience-tech {
+  height: 40px;
+  width: 40px;
 }

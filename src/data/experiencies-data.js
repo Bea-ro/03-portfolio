@@ -63,7 +63,7 @@ export const EXPERIENCIES = [
     date: 'Jun 2003 – May 2004',
     organization: 'Grupo TEMA Marketing Integral',
     logo: '../../public/logos/tema-logo.png',
-    description: 'Trade promotion of several brands throug Marketing Agency.',
+    description: 'Trade promotion of several brands through Marketing Agency.',
     responsabilities: ['Customer acquisition and engagement', 'Product demonstration'],
     organizationURL: 'https://www.temapromotion.com/'
   }
