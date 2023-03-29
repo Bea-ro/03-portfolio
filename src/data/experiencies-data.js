@@ -1,4 +1,4 @@
-export const EXPERIENCIES = [
+export const EXPERIENCES = [
   {
     position: 'Communication Manager',
     date: 'May 2018 – October 2022',

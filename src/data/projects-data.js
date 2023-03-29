@@ -36,7 +36,7 @@ export const PROJECTS = [
     name: 'Color Flipper',
     description: 'Dynamic color flipper created with Vite.',
     date: 'December 2022',
-    techs: ['HTML5', 'CSS3', 'JavaScript'],
+    techs: ['CSS3', 'JavaScript'],
     requirements: [
       'dynamic HTML with JavaScript DOM',
       'select type input',
@@ -51,7 +51,7 @@ export const PROJECTS = [
     name: 'Dynamic Portfolio',
     description: 'Dynamic personal portfolio created with JavaScript DOM.',
     date: 'February 2023',
-    techs: ['CSS3', 'HTML5', 'JavaScript'],
+    techs: ['JavaScript', 'CSS3'],
     requirements: [
       'dynamic HTML with JavaScript DOM',
       'navigation emulation in a SPA',
@@ -66,7 +66,7 @@ export const PROJECTS = [
     name: 'Star Wars',
     description: 'Dynamic webpage getting data from and API.',
     date: 'December 2022',
-    techs: ['HTML5', 'CSS3', 'JavaScript'],
+    techs: ['JavaScript', 'CSS3'],
     requirements: [
       'dynamic HTML with JavaScript DOM',
       'navigation emulation in a SPA',

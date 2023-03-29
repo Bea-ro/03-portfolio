@@ -3,6 +3,7 @@ import { renderHome } from './src/pages/home';
 import { renderProjects } from './src/pages/projects';
 import { renderExperience } from './src/pages/experience';
 import { PROJECTS } from './src/data/projects-data';
+import { navbarToggle } from './src/utils/navbar-toggle';
 
 const main = document.querySelector('main');
 
@@ -22,4 +23,5 @@ const handleClic = (ev) => {
 const pageLinks = document.querySelectorAll('.page-link');
 pageLinks.forEach((pageLink) => pageLink.addEventListener('click', handleClic));
 
+navbarToggle();
 renderHome();

@@ -1,1 +1,2 @@
-export const mapData = (data) => data.map((dat) => `<li class="reason">${dat}</li>`).join('');
+export const mapData = (data) => data.map((dat) => `<li class="li-element">${dat}</li>`).join('');
+

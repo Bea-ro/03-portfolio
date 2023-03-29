@@ -10,46 +10,12 @@
   margin: 24px 24px 0 0;
   border-radius: 12px;
   background-color: var(--color-light);
-  animation: var(--animation-slide-in)
+  animation: var(--animation-slide-in);
 }
 
-.experience-card {
-  display: grid;
-  grid-template-columns: 1fr 4fr;
-  grid-gap: 24px;
-  padding-bottom: 24px;
-}
-
-.organization {
-  font-size: var(--typography-xs);
-}
-
-.position {
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-.experience-description {
-  position: relative;
-  top: 8px;
-}
-
-#experience-skills {
-  margin-top: 22px;
-}
-
-.responsabilities-list {
+.skills-list {
   pointer-events: none;
   display: none;
-}
-
-.responsability:before {
-  content: '\25b7  ';
-}
-
-[class~='show'] {
-  pointer-events: auto;
-  display: block;
   border: var(--border-purple);
   border-radius: 6px;
   background-color: var(--color-white);
@@ -57,3 +23,44 @@
   padding: 12px 12px 12px 16px;
   width: fit-content;
 }
+
+[class~='show-ev'] {
+  pointer-events: auto;
+  display: block;
+}
+
+@media screen and (max-width: 375px) {
+.experiences-list {
+  animation: none;
+}
+.experience-container {
+  display: flex;
+  flex-direction: column;
+  padding: 18px;
+}
+.experience-header {
+  padding: 0 12px 12px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.title, .subtitle {
+  padding: 0
+}
+.experience-techs {
+  padding: 0;
+  position: relative;
+  top: -12px;
+}
+.experiences-list {
+  margin: 0;
+}
+}
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+.title, .subtitle, .experience-techs {
+  padding-left: 0
+}
+}
+
+  

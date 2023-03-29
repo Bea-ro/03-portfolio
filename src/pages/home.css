@@ -42,12 +42,6 @@ article {
   align-items: center;
 }
 
-.ul-social {
-  display: flex;
-  flex-direction: row;
-  gap: 12px;
-}
-
 .why-container {
   display: flex;
   flex-direction: column;
@@ -60,11 +54,44 @@ article {
   animation: var(--animation-slide-in)
 }
 
-.reason:before {
-  content: '\25b7';
-  padding-right: 15px;
-}
-
 .reasons-list {
   padding-left: 26px;
 }
+
+@media screen and (max-width: 375px) {
+  article {
+      display: flex;
+      flex-direction: column;
+      padding: 18px;
+  }
+  .personal-basic {
+    padding: 0 12px;
+    gap: 18px;
+    }
+  .name, .personal-description {
+    font-size: var(--typography-xs)
+  }
+  .occupation {
+    font-size: var(--typography-medium)
+  }
+  .personal-secondary {
+    padding-bottom: 12px
+  }
+  .why-container {
+    padding: 22px;
+    animation: none;
+    margin-right: 0;
+    gap: 18px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  .why-container {
+    padding: 22px;
+    gap: 18px;
+    }
+}
+
+
+
+

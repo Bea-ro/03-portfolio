@@ -3,17 +3,15 @@
     align-items: center;
     position: relative;
     top: -22px;
-    left: 22px;
-    gap: 12px;
+    gap: 2px;
   }
-  
   .tech {
     height: 40px;
     width: 40px;
   }
   
   .techs-list li:last-child {
-    width: 116px;
+    width: 20%;
   }
   
   .techs-list li:nth-child(2),
@@ -40,3 +38,10 @@
   #canva-icon {
     border-radius: 50%
   }
+
+  @media screen and (max-width: 375px) {
+  .techs-list {
+    gap: 0;
+    top: -12px;
+  }
+}

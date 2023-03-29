@@ -1,25 +1,5 @@
-img {
-  width: 75%;
-  height: 75%;
-  border-radius: 3px;
-}
-
 #projects-subtitle {
   padding: 24px 24px 24px 48px;
-}
-
-.filter {
-  display: flex;
-  flex-direction: row;
-  padding: 0 0 24px 48px;
-}
-
-#projects-techs-list {
-top: 0
-}
-
-.filter-title {
-  font-size: var(--typography-xs);
 }
 
 .projects-list {
@@ -28,59 +8,12 @@ top: 0
   grid-template-rows: 1fr 1fr;
   grid-gap: 32px;
   padding: 0 48px 24px 48px;
-  animation: var(--animation-slide-in)
+  animation: var(--animation-slide-in);
 }
 
-.project-card {
-  padding: 42px;
-  background-color: var(--color-light);
-  border-radius: 6px;
-}
-
-.project-card:hover ~ .skills {
-  background-color: var(--color-light);
-}
-
-.project-card:hover {
-  background-color: var(--color-green);
-}
-
-.project-img-title {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-bottom: 18px;
-  gap: 12px;
-  color: black;
-}
-
-.project-img {
-  border: var(--border-purple);
-  border-radius: 3px;
-}
-
-.project-techs {
-  display: flex;
-  flex-direction: row;
-}
-
-#project-skills:hover {
-  background-color: var(--color-light);
-}
-
-
-.requirements-list {
+.skills-list {
   pointer-events: none;
   display: none;
-}
-
-.requirement:before {
-  content: '\25b7';
-}
-
-[class~='show'] {
-  pointer-events: auto;
-  display: block;
   border: var(--border-purple);
   border-radius: 6px;
   background-color: var(--color-white);
@@ -88,38 +21,45 @@ top: 0
   padding: 12px 12px 12px 16px;
 }
 
-.project-areas {
-  display: flex;
-  flex-direction: row;
-  gap: 16px;
-  align-items: flex-start;
-  justify-content: center;
-  padding-bottom: 8px;
-}
-
-.date {
-  font-size: var(--typography-xxs);
-}
-
-.project-github-link {
-  padding-top: 12px;
-  display: flex;
-  flex-direction: row;
-  gap: 12px;
-  align-items: center;
-}
-
-.project-github-link:hover {
-  text-decoration: underline;
+[class~='show-ev'] {
+  pointer-events: auto;
+  display: block;
 }
 
 .noProjectsMessage {
-margin: 24px 24px 24px 48px;
-padding: 18px;
+  margin: 24px 24px 24px 48px;
+  padding: 18px;
   position: relative;
   bottom: 24px;
-animation: var(--animation-slide-in);
-background-color: var(--color-light);
-border-radius: 8px;
-width: fit-content;
+  animation: var(--animation-slide-in);
+  background-color: var(--color-light);
+  border-radius: 8px;
+  width: fit-content;
 }
+
+@media screen and (max-width: 375px) {
+  #projects-subtitle {
+padding: 18px 30px;
+  }
+  .projects-list, .experinoProjectsMessageist {
+    animation: none;
+  }
+  
+  .projects-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  padding: 18px;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  .projects-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    }
+}
+
+  
+    
+  
