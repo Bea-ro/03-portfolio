@@ -1,6 +1,6 @@
 export const PROJECTS = [
   {
-    image: '../../public/images/responsive-project.png',
+    image: '/images/responsive-project.png',
     name: 'Responsive Webpage',
     description: 'Responsive webpage created with HTML and CSS.',
     date: 'February 2023',
@@ -16,7 +16,7 @@ export const PROJECTS = [
     projectURL: 'https://hm-home.netlify.app/',
   },
   {
-    image: '../../public/images/dynamic-shop-project.png',
+    image: '/images/dynamic-shop-project.png',
     name: 'Dynamic Shop',
     description: 'Dynamic and responsive shop created using JavaScript DOM.',
     date: 'February 2023',
@@ -32,7 +32,7 @@ export const PROJECTS = [
     projectURL: 'https://pc-componentes-filters-review.netlify.app/'
   },
   {
-    image: '../../public/images/color-flipper-project.png',
+    image: '/images/color-flipper-project.png',
     name: 'Color Flipper',
     description: 'Dynamic color flipper created with Vite.',
     date: 'December 2022',
@@ -47,7 +47,7 @@ export const PROJECTS = [
     projectURL: 'https://color-flipper-bea.netlify.app/',
   },
   {
-    image: '../../public/images/portfolio-project.png',
+    image: '/images/portfolio-project.png',
     name: 'Dynamic Portfolio',
     description: 'Dynamic personal portfolio created with JavaScript DOM.',
     date: 'February 2023',
@@ -62,7 +62,7 @@ export const PROJECTS = [
     projectURL: '#',
   },
   {
-    image: '../../public/images/star-wars-project.png',
+    image: '/images/star-wars-project.png',
     name: 'Star Wars',
     description: 'Dynamic webpage getting data from and API.',
     date: 'December 2022',
