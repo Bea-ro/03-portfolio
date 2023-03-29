@@ -32,6 +32,21 @@ export const PROJECTS = [
     projectURL: 'https://pc-componentes-filters-review.netlify.app/'
   },
   {
+    image: '/images/portfolio-project.png',
+    name: 'Dynamic Portfolio',
+    description: 'Dynamic personal portfolio created with JavaScript DOM.',
+    date: 'February 2023',
+    techs: ['JavaScript', 'CSS3'],
+    requirements: [
+      'dynamic HTML with JavaScript DOM',
+      'navigation emulation in a SPA',
+      'event handling',
+      'colorful and appropiate color range',
+    ],
+    github: 'https://github.com/Bea-ro/03-portfolio',
+    projectURL: 'https://developer-portfolio-brm.netlify.app/',
+  },
+  {
     image: '/images/color-flipper-project.png',
     name: 'Color Flipper',
     description: 'Dynamic color flipper created with Vite.',
@@ -47,21 +62,6 @@ export const PROJECTS = [
     projectURL: 'https://color-flipper-bea.netlify.app/',
   },
   {
-    image: '/images/portfolio-project.png',
-    name: 'Dynamic Portfolio',
-    description: 'Dynamic personal portfolio created with JavaScript DOM.',
-    date: 'February 2023',
-    techs: ['JavaScript', 'CSS3'],
-    requirements: [
-      'dynamic HTML with JavaScript DOM',
-      'navigation emulation in a SPA',
-      'event handling',
-      'colorful and appropiate color range',
-    ],
-    github: 'https://github.com/Bea-ro/03-portfolio',
-    projectURL: '#',
-  },
-  {
     image: '/images/star-wars-project.png',
     name: 'Star Wars',
     description: 'Dynamic webpage getting data from and API.',
@@ -75,5 +75,5 @@ export const PROJECTS = [
     ],
     github: 'https://github.com/Bea-ro/star-wars-api',
     projectURL: 'https://my-star-wars-api.netlify.app',
-  }
+  },
 ];
