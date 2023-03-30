@@ -20,6 +20,10 @@
   display: none;
 }
 
+#projects-techs-list li:nth-child(9) {
+  display: none;
+}
+
 .filter-title {
   font-size: var(--typography-xs);
 }
