@@ -1,4 +1,3 @@
-import './projectsFilter.css';
 import { PROJECTS } from '../data/projects-data';
 import { renderProjects } from '../pages/projects';
 

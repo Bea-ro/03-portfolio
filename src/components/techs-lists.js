@@ -1,7 +1,7 @@
 import './techs-lists.css';
 import { PERSONALDATA } from '../data/personal-data';
 
-export const techsList = `
+export const TechsList = `
 <ul class="techs-list">
 ${PERSONALDATA.techs.map((tech) => `<li class="tech">
 <img src=${tech.icon} alt=${tech.name} class="tech-icon"/>
@@ -9,7 +9,7 @@ ${PERSONALDATA.techs.map((tech) => `<li class="tech">
 </ul> 
 `;
 
-export const experienceTechsList = `
+export const ExperienceTechsList = `
 <ul class="experience-techs">
 <li class="experience-tech">
 <img src='/icons/wp-icon.png' alt="Wordpress Icon" class="tech-icon"/>

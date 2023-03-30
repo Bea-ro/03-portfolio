@@ -1,6 +1,6 @@
 import './experience.css';
-import { experienceTechsList } from '../components/techs-lists';
-import { experienceCards } from '../components/cards';
+import { ExperienceTechsList } from '../components/Techs-lists';
+import { ExperienceCards } from '../components/Cards';
 import { skillsToggle } from '../utils/show-skills-event';
 
 const main = document.querySelector('main');
@@ -11,13 +11,13 @@ export const renderExperience = () => {
   <div class="experience-header">
     <h1 class="title">Work with brand leaders and institutional references</h1>
     <h2 class="subtitle">Marketing background</h2>
-    ${experienceTechsList}
+    ${ExperienceTechsList}
 </div>
     <ul class="experiences-list">  
-    ${experienceCards()}
+    ${ExperienceCards()}
     </ul>
     </section> 
 `;
 
-skillsToggle();
+  skillsToggle();
 };

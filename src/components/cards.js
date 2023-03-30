@@ -3,7 +3,7 @@ import { EXPERIENCES } from '../data/experiencies-data';
 import { mapData } from '../utils/map';
 import { PERSONALDATA } from '../data/personal-data';
 
-export const experienceCards = () =>
+export const ExperienceCards = () =>
   EXPERIENCES.map(
     (experience) => `
   <li class="card" id="experience-card">
@@ -30,7 +30,7 @@ export const experienceCards = () =>
       `
   ).join('');
 
-export const projectCards = (list) =>
+export const ProjectCards = (list) =>
   list
     .map(
       (project) => `

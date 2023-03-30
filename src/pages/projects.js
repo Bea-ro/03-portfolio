@@ -1,8 +1,8 @@
 import './projects.css';
-import { techsList } from '../components/techs-lists';
-import { projectCards } from '../components/cards';
+import { TechsList } from '../components/Techs-lists';
+import { ProjectCards } from '../components/Cards';
 import { skillsToggle } from '../utils/show-skills-event';
-import { projectsFilter } from '../components/projectsFilter';
+import { projectsFilter } from '../utils/projects-filter';
 
 const main = document.querySelector('main');
 
@@ -10,14 +10,14 @@ export const renderProjects = (list) => {
   main.innerHTML = `
   <h1 class="subtitle" id="projects-subtitle">My first projects</h1>
   <div class="filter">
-  <p class="filter-title">Filter by main language or technology:</p>
-  ${techsList}
+  <p class="filter-title">Filter by main language:</p>
+  ${TechsList}
  
 
 </div> 
 
 <ul class="projects-list">
-  ${projectCards(list)}
+  ${ProjectCards(list)}
   </ul> 
 `;
 
