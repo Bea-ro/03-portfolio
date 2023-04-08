@@ -1,5 +1,5 @@
 import './experience.css';
-import { ExperienceTechsList } from '../components/Techs-lists';
+import { ExperienceTechsList } from '../components/TechsLists';
 import { ExperienceCards } from '../components/Cards';
 import { skillsToggle } from '../utils/show-skills-event';
 

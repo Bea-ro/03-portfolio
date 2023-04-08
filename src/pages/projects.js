@@ -1,5 +1,5 @@
 import './projects.css';
-import { TechsList } from '../components/Techs-lists';
+import { TechsList } from '../components/TechsLists';
 import { ProjectCards } from '../components/Cards';
 import { skillsToggle } from '../utils/show-skills-event';
 import { projectsFilter } from '../utils/projects-filter';

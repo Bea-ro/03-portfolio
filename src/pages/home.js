@@ -1,8 +1,8 @@
 import './home.css';
 import { PERSONALDATA } from '../data/personal-data';
 import { mapData } from '../utils/map';
-import { PersonalProfile } from '../components/Personal-profile';
-import { TechsList } from '../components/Techs-lists';
+import { PersonalProfile } from '../components/PersonalProfile';
+import { TechsList } from '../components/TechsLists';
 
 const main = document.querySelector('main');
 
