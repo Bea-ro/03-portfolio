@@ -10,7 +10,7 @@ export const ExperienceCards = () =>
       
   <a href="${experience.organizationURL}" target="blank" rel="noopener noreferrer">
   <figure class="logo">
-      <img src="${experience.logo}" alt=${experience.organization} class="logo-img"/>
+      <img src=${experience.logo} alt=${experience.organization} class="logo-img"/>
       </figure>
       </a>
       
@@ -37,7 +37,7 @@ export const ProjectCards = (list) =>
 <li class="card" id="project-card">
         <a href=${project.projectURL} target="blank" rel="noopener noreferrer">
         <figure class="project-img-title">
-        <img src="${project.image}" alt=${project.name} class="project-img"/>
+        <img src=${project.image} alt=${project.name} class="project-img"/>
         <h2 class="project-title">${project.name}</h2>
     
        </figure>

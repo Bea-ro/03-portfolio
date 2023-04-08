@@ -1,4 +1,20 @@
 export const PROJECTS = [
+
+  {
+    image: '/images/nasa-project.png',
+    name: 'La imagen astronómica del día',
+    description: 'Fetch to NASA APIs with React and JavaScript.',
+    date: 'April 2023',
+    techs: ['React', 'JavaScript', 'CSS3'],
+    requirements: [
+      'render different data (text, image, video) from NASA API',
+      'date input',
+      'bonus proposal: add an additional api with a select api input',
+      'own bonus: add one page and routes',
+    ],
+    github: 'https://github.com/Bea-ro/04-app-nasa',
+    projectURL: ' https://imagen-astronomica-del-dia.netlify.app/',
+  },
   {
     image: '/images/portfolio-project.png',
     name: 'Dynamic Portfolio',
