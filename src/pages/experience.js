@@ -1,6 +1,6 @@
 import './experience.css';
 import { ExperienceTechsList } from '../components/TechsLists';
-import { ExperienceCards } from '../components/abc';
+import { ExperienceCards } from '../components/Cards';
 import { skillsToggle } from '../utils/show-skills-event';
 
 const main = document.querySelector('main');
