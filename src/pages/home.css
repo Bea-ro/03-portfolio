@@ -58,7 +58,7 @@ article {
   padding-left: 26px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 414px) {
   article {
       display: flex;
       flex-direction: column;
@@ -85,7 +85,7 @@ article {
     }
 }
 
-@media screen and (min-width: 375px) and (max-width: 768px) {
+@media screen and (min-width: 414px) and (max-width: 768px) {
   .why-container {
     padding: 22px;
     gap: 18px;
