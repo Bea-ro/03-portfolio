@@ -29,7 +29,7 @@
   display: block;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 600px) {
 .experiences-list {
   animation: none;
 }
@@ -54,12 +54,6 @@
 }
 .experiences-list {
   margin: 0;
-}
-}
-
-@media screen and (min-width: 414px) and (max-width: 768px) {
-.title, .subtitle, .experience-techs {
-  padding-left: 0
 }
 }
 

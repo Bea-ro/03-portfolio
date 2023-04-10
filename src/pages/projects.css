@@ -63,7 +63,7 @@
   width: fit-content;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 600px) {
   #projects-subtitle {
 padding: 18px 30px;
   }
@@ -81,13 +81,5 @@ padding: 18px 30px;
   padding: 18px;
   }
 }
-
-@media screen and (min-width: 414px) and (max-width: 768px) {
-  .projects-list {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    }
-}
-
   
     

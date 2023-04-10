@@ -139,7 +139,7 @@ font-size: var(--typography-small)
 }
 
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 600px) {
   header {
    padding: 18px;
    justify-content: space-between;

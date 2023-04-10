@@ -39,7 +39,7 @@
     border-radius: 50%
   }
 
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 600px) {
   .techs-list {
     gap: 0;
     top: -12px;

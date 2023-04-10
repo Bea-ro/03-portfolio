@@ -58,7 +58,7 @@ article {
   padding-left: 26px;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 600px) {
   article {
       display: flex;
       flex-direction: column;
@@ -78,20 +78,21 @@ article {
     padding-bottom: 12px
   }
   .why-container {
-    padding: 22px;
+    padding: 24px;
     animation: none;
     margin-right: 0;
     gap: 18px;
     }
 }
 
-@media screen and (min-width: 414px) and (max-width: 768px) {
+@media screen and (min-width: 414px) and (max-width: 600px) {
   .why-container {
-    padding: 22px;
-    gap: 18px;
-    }
+    padding-left: 54px;
+  }
+  }
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+.why-container {
+  padding-left: 24px;
 }
-
-
-
-
+}
