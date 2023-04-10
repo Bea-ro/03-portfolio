@@ -63,7 +63,7 @@
   width: fit-content;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1086px) {
   #projects-subtitle {
 padding: 18px 30px;
   }
