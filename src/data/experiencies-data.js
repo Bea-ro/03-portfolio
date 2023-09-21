@@ -3,15 +3,14 @@ export const EXPERIENCES = [
     position: 'Communication Manager',
     date: 'May 2018 – October 2022',
     logo: '/logos/down-madrid-logo.png',
-    organization: 'Fundación Síndrome de Down de Madrid',
-    description: 'Comunication Strategy building align with Foundation Strategic Plan.',
+    organization: "Madrid Down's Syndrome Fundation",
+    description: 'Develop the Communication strategy to reach Strategic Plan goals and safeguard institutional reputation.',
     responsabilities: [
-      'Ensure compliance of the Foundation purpose',
+      'Management roles as Board of Directors’ member',
+      'Partners acquisition and loyalty',
       'Reputation safeguard',
-      'Social Media management',
-      'Website administration'
     ],
-    organizationURL: 'https://downmadrid.org/'
+    organizationURL: 'https://downmadrid.org/',
   },
   {
     position: 'Marketing Product Manager',
@@ -20,10 +19,9 @@ export const EXPERIENCES = [
     logo: '/logos/estee-lauder-logo.png',
     description: 'Management of M·A·C Cosmetics products in Iberia.',
     responsabilities: [
-      'Distribution and pricing strategy ensuring rentability',
-      'Forecast and stock control',
-      'Results, consummer insights, competitors and sector trends analysis to seize all opportinity growth',
-      'Visual Merchandising and promotional campaings implementation'
+      'Distribution and pricing strategies ensuring profitability',
+      'Results, competitors, trends and consumer insights analysis',
+      'Visual Merchandising implementation',
     ],
     organizationURL: 'https://www.esteelauder.es/'
   },
@@ -33,15 +31,13 @@ export const EXPERIENCES = [
     organization: 'M·A·C Cosmetics',
     logo: '/logos/mac-cosmetics-logo.png',
     description:
-      'Assistance in sales and marketing management with over 80 points of sale and over two thousand products line-up.',
+      'Assistance in sales and marketing with over 80 points of sale and over two thousand products line-up.',
     responsabilities: [
-      'Sales reporting to local and EMEA Managers',
-      'Product distribution to Iberia retailers',
-      'Product line-up update',
+      'Sales reporting, update of line up documents and order forms',
+      'Product and collateral distribution to Iberia retailers',
       'Retail Managers and Manager Retail Operations support',
-      'Store openings and stores housekeeping coordination'
     ],
-    organizationURL: 'https://www.maccosmetics.es'
+    organizationURL: 'https://www.maccosmetics.es',
   },
   {
     position: 'Marketing and Communication Intern',
@@ -51,20 +47,9 @@ export const EXPERIENCES = [
     description: 'Administrative assistance in Marketing and Communication areas.',
     responsabilities: [
       'Data basing and reporting',
-      'Sales tracking in Excel',
       'Press coverage follow-up',
       'Press releases translation',
-      'Other administrative responsabilities'
     ],
     organizationURL: 'https://www.maccosmetics.es/'
-  },
-  {
-    position: 'Trade Promoter',
-    date: 'Jun 2003 – May 2004',
-    organization: 'Grupo TEMA Marketing Integral',
-    logo: '/logos/tema-logopng',
-    description: 'Trade promotion of several brands through Marketing Agency.',
-    responsabilities: ['Customer acquisition and engagement', 'Product demonstration'],
-    organizationURL: 'https://www.temapromotion.com/'
   },
 ];

@@ -13,13 +13,15 @@ export const PERSONALDATA = {
     { icon: '/icons/vite-icon.png', name: 'Vite' },
     { icon: '/icons/vs-icon.png', name: 'Visual Studio Code' },
     { icon: '/icons/github-icon.png', name: 'Github' },
-    { icon: '/icons/node-icon.png', name: 'Node' },
+    { icon: '/icons/nodejs-icon.png', name: 'Node' },
+    { icon: '/icons/express-icon.png', name: 'Express' },
+    { icon: '/icons/mongodb-icon.svg', name: 'MongoDB' },
   ],
-  description: 'With the encourage of a beginer <br> and wide experience in Marketing',
+  description: 'With the encourage of a beginner <br> and wide experience in Marketing',
   profiles: [
     { link: 'https://github.com/Bea-ro', icon: '/icons/github-icon.png' },
     { link: 'https://www.linkedin.com/in/beatrizrodriguezmaya/', icon: '/icons/linkedin-icon.png' },
   ],
-  reasons: ['Trained with the best', 'Beginer encourage', 'Best practices focus'],
+  reasons: ['Trained with the best', 'Beginner encourage', 'Best practices focus'],
   insights: ['Enjoy coding', 'Love challenges', 'Restless mind'],
 };
