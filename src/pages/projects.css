@@ -2,13 +2,6 @@
   padding: 24px 24px 24px 48px;
 }
 
-.filter {
-  display: flex;
-  flex-direction: row;
-  padding: 0 0 24px 48px;
-  gap:12px;
-}
-
 #projects-techs-list {
   top: 0;
 }
@@ -24,14 +17,17 @@
   display: none;
 }
 
+.filter {
+  padding: 0 0 20px 48px
+}
+
 .filter-title {
   font-size: var(--typography-xs);
 }
 
 .projects-list {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
   grid-gap: 32px;
   padding: 0 48px 24px 48px;
   animation: var(--animation-slide-in);
@@ -52,7 +48,7 @@
   display: block;
 }
 
-.noProjectsMessage {
+.no-projects-message {
   margin: 24px 24px 24px 48px;
   padding: 18px;
   position: relative;
@@ -71,15 +67,10 @@ padding: 18px 30px;
     display: block;
     padding: 0 30px 18px 30px;
   }
-  .projects-list, .experinoProjectsMessageist {
+  .projects-list {
     animation: none;
   }
-  .projects-list {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 20px;
-  padding: 18px;
-  }
+  .no-projects-message {
+  margin-left: 24px 
 }
-  
-    
+}

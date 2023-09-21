@@ -3,9 +3,7 @@ import { EXPERIENCES } from '../data/experiencies-data';
 import { mapData } from '../utils/map';
 import { PERSONALDATA } from '../data/personal-data';
 
-export const ExperienceCards = () =>
-  EXPERIENCES.map(
-    (experience) => `
+export const ExperienceCards = () => EXPERIENCES.map((experience) => `
   <li class="card" id="experience-card">
       
   <a href="${experience.organizationURL}" target="blank" rel="noopener noreferrer">
@@ -27,13 +25,9 @@ export const ExperienceCards = () =>
       </ul>
       </div>
       </li>
-      `
-  ).join('');
+      `).join('');
 
-export const ProjectCards = (list) =>
-  list
-    .map(
-      (project) => `
+export const ProjectCards = (list) => list.map((project) => `
 <li class="card" id="project-card">
         <a href=${project.projectURL} target="blank" rel="noopener noreferrer">
         <figure class="project-img-title">
@@ -45,32 +39,27 @@ export const ProjectCards = (list) =>
         
         <div class="project-areas">
         <ul class="project-techs">
-        ${PERSONALDATA.techs
-          .map((tech) => {
-            if (project.techs.includes(tech.name)) {
-              return `<li class="tech"><img src=${tech.icon} alt=${tech.name} class="tech-icon"/></li>`;
-            }
-          })
-          .join('')}
+        ${PERSONALDATA.techs.map((tech) => {
+    if (project.techs.includes(tech.name)) {
+      return `<li class="tech" id=${tech.name}>
+              <img src=${tech.icon} alt=${tech.name} class="tech-icon"/></li>`;
+    }
+  }).join('')}
         </ul> 
+        
         <button class="skills" id="project-skills">See requirements</button>
         </div>
         <ul class="skills-list">
         ${mapData(project.requirements)}
         </ul>
         
-        <div>
         <p>${project.description}</p>
         <p class="date">${project.date}</p>
-       </div>
+      
         <figure>
-        <a href="${
-          project.github
-        }" class="project-github-link" target="blank" rel="noopener noreferrer">
+        <a href="${project.github}" class="project-github-link" target="blank" rel="noopener noreferrer">
         <img src="icons/github-icon.png" alt=${project.name} class="social-icon"/>
         <p class="project-in-github">Project in GitHub</p>
         </a>
         </figure>
-    </li>`
-    )
-    .join('');
+    </li>`).join('');

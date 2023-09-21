@@ -15,7 +15,7 @@ export const PERSONALDATA = {
     { icon: '/icons/github-icon.png', name: 'Github' },
     { icon: '/icons/nodejs-icon.png', name: 'Node' },
     { icon: '/icons/express-icon.png', name: 'Express' },
-    { icon: '/icons/mongodb-icon.svg', name: 'MongoDB' },
+    { icon: '/icons/mongodb-icon.png', name: 'MongoDB' },
   ],
   description: 'With the encourage of a beginner <br> and wide experience in Marketing',
   profiles: [

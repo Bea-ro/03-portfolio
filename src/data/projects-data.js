@@ -4,7 +4,7 @@ export const PROJECTS = [
     name: 'TriaRock E-commerce',
     description: 'MERN e-commerce.',
     date: 'July 2023',
-    techs: ['React', 'JavaScript', 'Node', 'Express', 'MongoDB'],
+    techs: ['React', 'JavaScript', 'CSS3', 'Node', 'Express', 'MongoDB'],
     requirements: [
       'pair programming',
       'web scrapping',
@@ -31,7 +31,7 @@ export const PROJECTS = [
       'CORS',
     ],
     github: 'https://github.com/Bea-ro/09-complete-server',
-    projectURL: 'https://complete-server-rtc.onrender.com/api',
+    projectURL: 'https://complete-server-rtc.onrender.com/api/authors',
   },
   {
     image: '/images/relational-project.png',
@@ -47,6 +47,7 @@ export const PROJECTS = [
       'own bonus: add a seed and create 3 models instead of 2',
     ],
     github: 'https://github.com/Bea-ro/08-relational-modeling',
+    projectURL: 'https://github.com/Bea-ro/08-relational-modeling',
   },
   {
     image: '/images/api-project.png',
@@ -60,6 +61,7 @@ export const PROJECTS = [
       'own bonus: create two models instead of one',
     ],
     github: 'https://github.com/Bea-ro/07-art-api',
+    projectURL: 'https://github.com/Bea-ro/07-art-api',
   },
   {
     image: '/images/games-project.png',
@@ -73,7 +75,7 @@ export const PROJECTS = [
       'bonus proposal: authentication required',
     ],
     github: 'https://github.com/Bea-ro/06-games-hub',
-    projectURL: 'https://a-que-jugamos.app/',
+    projectURL: 'https://a-que-jugamos.netlify.app/',
   },
   {
     image: '/images/weather-project.png',

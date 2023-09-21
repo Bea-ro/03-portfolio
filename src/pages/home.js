@@ -8,8 +8,8 @@ const main = document.querySelector('main');
 
 export const renderHome = () => {
   main.innerHTML = `
+  <div class="container">
   <article>
-  <div>
 <section class="personal-basic">
 <h3 class="name">${PERSONALDATA.name} ${PERSONALDATA.surname}</h3>           
 <h1 class="occupation">${PERSONALDATA.occupation}</h1>
@@ -23,7 +23,7 @@ ${TechsList}
 ${PersonalProfile(PERSONALDATA.profiles)}
 </ul>
 </section>               
-</div>
+</article>
 
 <aside class="why-container">
 <h3 class="why-title">Why me?</h3>
@@ -34,8 +34,7 @@ ${mapData(PERSONALDATA.reasons)}
 <ul class="reasons-list">
 ${mapData(PERSONALDATA.insights)}
 </ul> 
-</aside> 
-
-</article>             
+</aside>             
+</div>
 `;
 };

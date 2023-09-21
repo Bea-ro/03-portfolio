@@ -3,7 +3,7 @@ import { PERSONALDATA } from '../data/personal-data';
 
 export const TechsList = `
 <ul class="techs-list">
-${PERSONALDATA.techs.map((tech) => `<li class="tech">
+${PERSONALDATA.techs.map((tech) => `<li class="tech" id=${tech.name}>
 <img src=${tech.icon} alt=${tech.name} class="tech-icon"/>
 </li>`).join('')}
 </ul> 
@@ -20,7 +20,7 @@ export const ExperienceTechsList = `
 <li class="experience-tech" id="sap-icon">
 <img src='/icons/sap-icon.png' alt="SAP Icon" class="tech-icon"/>
 </li>
-<li class="experience-tech">
+<li class="experience-tech" id="excel-icon">
 <img src='/icons/excel-icon.png' alt="Excel Icon" class="tech-icon"/>
 </li>
 </ul> 

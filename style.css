@@ -79,7 +79,6 @@ footer a {
 
 .ul-navbar {
   display: flex;
-  flex-direction: row;
   gap: 48px;
 }
 
@@ -92,11 +91,6 @@ a {
   cursor: pointer;
   color: var(--color-black);
   font-style: bold;
-}
-
-img {
-  width: 75%;
-  height: 75%;
 }
 
 .title {

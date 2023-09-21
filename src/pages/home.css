@@ -1,11 +1,14 @@
-article {
+.container {
   display: grid;
   grid-template-columns: 60% 40%;
   padding: 54px 0 24px 24px;
 }
 
+article {
+  padding-left: 24px
+}
+
 .personal-basic {
-  padding: 0 24px;
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -35,9 +38,8 @@ article {
 }
 
 .personal-secondary {
-  padding: 46px 24px 0 24px;
+  padding-top: 46px;
   display: flex;
-  flex-direction: row;
   gap: 24px;
   align-items: center;
 }
@@ -59,7 +61,7 @@ article {
 }
 
 @media screen and (max-width: 600px) {
-  article {
+  .container {
       display: flex;
       flex-direction: column;
       padding: 18px;

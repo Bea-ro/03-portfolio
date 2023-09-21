@@ -6,9 +6,9 @@ export const EXPERIENCES = [
     organization: "Madrid Down's Syndrome Fundation",
     description: 'Develop the Communication strategy to reach Strategic Plan goals and safeguard institutional reputation.',
     responsabilities: [
-      'Management roles as Board of Directors’ member',
-      'Partners acquisition and loyalty',
-      'Reputation safeguard',
+      'Management roles as Board of Directors’ member.',
+      'Partners acquisition and loyalty.',
+      'Reputation safeguard.',
     ],
     organizationURL: 'https://downmadrid.org/',
   },
@@ -19,9 +19,9 @@ export const EXPERIENCES = [
     logo: '/logos/estee-lauder-logo.png',
     description: 'Management of M·A·C Cosmetics products in Iberia.',
     responsabilities: [
-      'Distribution and pricing strategies ensuring profitability',
-      'Results, competitors, trends and consumer insights analysis',
-      'Visual Merchandising implementation',
+      'Distribution and pricing strategies ensuring profitability.',
+      'Results, competitors, trends and consumer insights analysis.',
+      'Visual Merchandising implementation.',
     ],
     organizationURL: 'https://www.esteelauder.es/'
   },
@@ -33,9 +33,9 @@ export const EXPERIENCES = [
     description:
       'Assistance in sales and marketing with over 80 points of sale and over two thousand products line-up.',
     responsabilities: [
-      'Sales reporting, update of line up documents and order forms',
-      'Product and collateral distribution to Iberia retailers',
-      'Retail Managers and Manager Retail Operations support',
+      'Sales reporting, update of line up documents and order forms.',
+      'Product and collateral distribution to Iberia retailers.',
+      'Retail Managers and Manager Retail Operations support.',
     ],
     organizationURL: 'https://www.maccosmetics.es',
   },
@@ -46,9 +46,9 @@ export const EXPERIENCES = [
     logo: '/logos/mac-cosmetics-logo.png',
     description: 'Administrative assistance in Marketing and Communication areas.',
     responsabilities: [
-      'Data basing and reporting',
-      'Press coverage follow-up',
-      'Press releases translation',
+      'Data basing and reporting.',
+      'Press coverage follow-up.',
+      'Press releases translation.',
     ],
     organizationURL: 'https://www.maccosmetics.es/'
   },

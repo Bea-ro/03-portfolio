@@ -9,16 +9,14 @@ const main = document.querySelector('main');
 export const renderProjects = (list) => {
   main.innerHTML = `
   <h1 class="subtitle" id="projects-subtitle">My first projects</h1>
-  <div class="filter">
+<div class="filter">
   <p class="filter-title">Filter by main language:</p>
-  ${TechsList}
- 
-
-</div> 
-
+  ${TechsList} 
+  </div>
 <ul class="projects-list">
   ${ProjectCards(list)}
   </ul> 
+  
 `;
 
   skillsToggle();
