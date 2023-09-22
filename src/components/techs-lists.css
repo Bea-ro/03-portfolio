@@ -1,7 +1,7 @@
 .techs-list {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(48px, 1fr));
-    gap: 4px;
+    grid-template-columns: repeat(auto-fill, minmax(40px, 1fr));
+    gap: 2px;
     align-items: center;
     justify-items: center;
   }
@@ -15,15 +15,10 @@
   .experience-techs > .experience-tech > .tech-icon {
     height: 40px;   
   }
-  
+
   .project-areas > .project-techs >.tech {
     height: 30px;
     width: 30px;
-  }
-  
-  .techs-list li:nth-child(2),
-  .techs-list li:first-child {
-    height: 48px;
   }
 
   .experience-techs {
@@ -53,10 +48,8 @@
     border-radius: 50%
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (min-width: 480px) and (max-width: 800px) {
   .techs-list {
     gap: 0;
-    top: -12px;
-    width: 350px
   }
-}
+  }

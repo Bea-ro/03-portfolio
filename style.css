@@ -68,7 +68,7 @@ nav li:hover {
 footer {
   font-size: var(--typography-xxs);
   text-align: center;
-  padding: 16px 0;
+  padding: 16px 6px;
 }
 
 nav a,

@@ -6,10 +6,9 @@
   top: 0;
 }
 
-#projects-techs-list li:nth-child(6),  
-#projects-techs-list li:nth-child(7),
-#projects-techs-list li:nth-child(8),
-#projects-techs-list li:nth-child(9) {
+#projects-techs-list > #Vite,  
+#projects-techs-list > #Visual,
+#projects-techs-list > #Github {
   display: none;
 }
 
@@ -39,7 +38,7 @@
   border: var(--border-purple);
   border-radius: 6px;
   background-color: var(--color-white);
-  margin: 12px 0;
+  margin: 12px 24px;
   padding: 12px 12px 12px 16px;
 }
 

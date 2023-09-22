@@ -52,7 +52,7 @@ export const ProjectCards = (list) => list.map((project) => `
         <ul class="skills-list">
         ${mapData(project.requirements)}
         </ul>
-        
+        <div class="project-info">
         <p>${project.description}</p>
         <p class="date">${project.date}</p>
       
@@ -62,4 +62,5 @@ export const ProjectCards = (list) => list.map((project) => `
         <p class="project-in-github">Project in GitHub</p>
         </a>
         </figure>
+        </div>
     </li>`).join('');
