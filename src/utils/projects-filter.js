@@ -1,5 +1,5 @@
 import { PROJECTS } from '../data/projects-data';
-import { renderProjects } from '../pages/projects';
+import { renderProjects } from '../pages/Projects/Projects';
 
 const main = document.querySelector('main');
 

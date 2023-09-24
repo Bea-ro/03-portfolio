@@ -1,8 +1,8 @@
-import './projects.css';
-import { TechsList } from '../components/TechsLists';
-import { ProjectCards } from '../components/Cards';
-import { skillsToggle } from '../utils/show-skills-event';
-import { projectsFilter } from '../utils/projects-filter';
+import './Projects.css';
+import { TechsList } from '../../components/TechsLists/TechsLists';
+import { ProjectCards } from '../../components/Cards/Cards';
+import { skillsToggle } from '../../utils/show-skills-event';
+import { projectsFilter } from '../../utils/projects-filter';
 
 const main = document.querySelector('main');
 

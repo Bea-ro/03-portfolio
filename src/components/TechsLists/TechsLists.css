@@ -1,0 +1,99 @@
+/* .techs-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(40px, 1fr));
+    gap: 2px;
+    align-items: center;
+    justify-items: center;
+  } */
+
+.techs-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: var(--animation-rotate);
+  margin-left: -150px
+}
+
+.tech {
+  width: 40px; 
+  height: 40px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  transform-origin: center; 
+  background: transparent
+}
+
+.techs-list li:nth-child(1) { transform: rotate(0deg) translateY(-150px); }
+.techs-list li:nth-child(2) { transform: rotate(32.7deg) translateY(-150px); }
+.techs-list li:nth-child(3) { transform: rotate(65.4deg) translateY(-150px); }
+.techs-list li:nth-child(4) { transform: rotate(98.1deg) translateY(-150px); }
+.techs-list li:nth-child(5) { transform: rotate(130.8deg) translateY(-150px); }
+.techs-list li:nth-child(6) { transform: rotate(163.5deg) translateY(-150px); }
+.techs-list li:nth-child(7) { transform: rotate(196.2deg) translateY(-150px); }
+.techs-list li:nth-child(8) { transform: rotate(228.9deg) translateY(-150px); }
+.techs-list li:nth-child(9) { transform: rotate(261.6deg) translateY(-150px); }
+.techs-list li:nth-child(10) { transform: rotate(294.3deg) translateY(-150px); }
+.techs-list li:nth-child(11) { transform: rotate(327deg) translateY(-150px); }
+
+
+
+  /* .tech {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+  } */
+
+  .tech-icon {
+  width: 40px;
+  height: 40px;
+  background: transparent
+  }
+
+  #Github {
+   border-radius: 50% 
+  }
+
+  .experience-techs > .experience-tech > .tech-icon {
+    height: 40px;   
+  }
+
+  .project-areas > .project-techs >.tech {
+    height: 30px;
+    width: 30px;
+  }
+
+  .experience-techs {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 24px
+  }
+
+  #sap-icon {
+    width: 60px
+  }
+
+  #Express {
+    height: 30px;
+    margin-left: 8px
+  }
+
+  #MongoDB {
+    margin-left: -6px
+  }
+
+  #excel-icon {
+    padding-left: 8px
+  }
+  
+  #canva-icon {
+    border-radius: 50%
+  }
+
+  @media screen and (min-width: 480px) and (max-width: 800px) {
+  .techs-list {
+    gap: 0;
+  }
+  }

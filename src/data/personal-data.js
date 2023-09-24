@@ -3,7 +3,7 @@ export const PERSONALDATA = {
   name: 'Beatriz',
   surname: 'Rodríguez Maya',
   city: 'Madrid',
-  occupation: 'Full Stack Developer',
+  occupation: 'FullStack Developer',
   techs: [
     { icon: '/icons/html-icon.png', name: 'HTML5' },
     { icon: '/icons/css-icon.png', name: 'CSS3' },
@@ -19,8 +19,8 @@ export const PERSONALDATA = {
   ],
   description: 'With the encourage of a beginner <br> and wide experience in Marketing',
   profiles: [
-    { link: 'https://github.com/Bea-ro', icon: '/icons/github-icon.png' },
-    { link: 'https://www.linkedin.com/in/beatrizrodriguezmaya/', icon: '/icons/linkedin-icon.png' },
+    { link: 'https://github.com/Bea-ro', icon: '/icons/github-icon.png', name: 'GitHub' },
+    { link: 'https://www.linkedin.com/in/beatrizrodriguezmaya/', icon: '/icons/linkedin-icon.png', name: 'LinkedIn' },
   ],
   reasons: ['Trained with the best', 'Beginner encourage', 'Best practices focus'],
   insights: ['Enjoy coding', 'Love challenges', 'Restless mind'],

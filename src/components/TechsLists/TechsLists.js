@@ -1,10 +1,10 @@
-import './techs-lists.css';
-import { PERSONALDATA } from '../data/personal-data';
+import './TechsLists.css';
+import { PERSONALDATA } from '../../data/personal-data';
 
 export const TechsList = `
 <ul class="techs-list">
-${PERSONALDATA.techs.map((tech) => `<li class="tech" id=${tech.name}>
-<img src=${tech.icon} alt=${tech.name} class="tech-icon"/>
+${PERSONALDATA.techs.map((tech) => `<li class="tech">
+<img src=${tech.icon} alt=${tech.name} class="tech-icon" id=${tech.name} />
 </li>`).join('')}
 </ul> 
 `;

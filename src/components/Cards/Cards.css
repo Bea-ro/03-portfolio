@@ -45,7 +45,7 @@
   }
   
   #project-card:hover {
-    background-color: var(--color-green);
+    background-color: var(--color-primary);
   }
   
   .project-img-title {

@@ -1,7 +1,7 @@
-import './cards.css';
-import { EXPERIENCES } from '../data/experiencies-data';
-import { mapData } from '../utils/map';
-import { PERSONALDATA } from '../data/personal-data';
+import './Cards.css';
+import { EXPERIENCES } from '../../data/experiencies-data';
+import { mapData } from '../../utils/map';
+import { PERSONALDATA } from '../../data/personal-data';
 
 export const ExperienceCards = () => EXPERIENCES.map((experience) => `
   <li class="card" id="experience-card">
@@ -41,8 +41,8 @@ export const ProjectCards = (list) => list.map((project) => `
         <ul class="project-techs">
         ${PERSONALDATA.techs.map((tech) => {
     if (project.techs.includes(tech.name)) {
-      return `<li class="tech" id=${tech.name}>
-              <img src=${tech.icon} alt=${tech.name} class="tech-icon"/></li>`;
+      return `<li class="tech">
+              <img src=${tech.icon} alt=${tech.name} class="tech-icon" id=${tech.name}/></li>`;
     }
   }).join('')}
         </ul> 
