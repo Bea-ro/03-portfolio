@@ -2,18 +2,8 @@
   padding: 24px 24px 24px 48px;
 }
 
-#projects-techs-list {
-  top: 0;
-}
-
-#projects-techs-list > #Vite,  
-#projects-techs-list > #Visual,
-#projects-techs-list > #Github {
-  display: none;
-}
-
-#projects-techs-list li:nth-child(9) {
-  display: none;
+.parenthesis {
+  color: var(--color-secondary)
 }
 
 .filter {

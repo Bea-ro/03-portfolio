@@ -59,11 +59,17 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: var(--typography-typeface);
-  background: var(--color-black);
+  font-family: var(--typography-typeface); 
   color: var(--color-white)
 }
 
+body {
+  background: var(--color-black)
+}
+
+h1 {
+  font-size: 25px
+}
 
 li {
   list-style-type: none;
@@ -72,6 +78,15 @@ li {
 a {
   text-decoration: none;
   cursor: pointer;
+}
+
+button {
+  font-size: 11px;
+  border: var(--border-green);
+  padding: 3px 10px;
+  border-radius: 6px;
+  background-color: var(--color-black);
+  width: fit-content;
 }
 
 footer {
@@ -92,19 +107,9 @@ footer a {
 
 .subtitle {
   padding-left: 24px;
-  text-transform: uppercase;
   font-weight: bold;
   color: var(--color-primary);
   font-size: var(--typography-large);
-}
-
-.skills {
-  background-color: var(--color-primary);
-  padding: 6px 12px;
-  border-radius: 6px;
-  cursor: pointer;
-  text-transform: uppercase;
-  border: var(--border-purple);
 }
 
 .li-element:before {

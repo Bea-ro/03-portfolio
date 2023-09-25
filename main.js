@@ -16,6 +16,8 @@ const handleClic = (ev) => {
   main.innerHTML = ' ';
   if (linkHref.includes('home')) {
     main.innherHTML = renderHome();
+    document.querySelector('.techs-list').id = 'home-techs-list';
+    document.querySelectorAll('.tech').forEach((tech) => { tech.id = 'home-tech'});
   } else if (linkHref.includes('experience')) {
     main.innherHTML = renderExperience();
   } else if (linkHref.includes('projects')) {

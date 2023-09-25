@@ -23,3 +23,4 @@ ${TechsList}
 </div>
 `;
 };
+

@@ -31,13 +31,16 @@ export const ProjectCards = (list) => list.map((project) => `
 <li class="card" id="project-card">
         <a href=${project.projectURL} target="blank" rel="noopener noreferrer">
         <figure class="project-img-title">
+        <p class="date">${project.date}</p>
         <img src=${project.image} alt=${project.name} class="project-img"/>
+        <div class="project-title-description">
         <h2 class="project-title">${project.name}</h2>
-    
+        <p class="project-description">${project.description}</p>
+        </div>
        </figure>
         </a>
         
-        <div class="project-areas">
+       
         <ul class="project-techs">
         ${PERSONALDATA.techs.map((tech) => {
     if (project.techs.includes(tech.name)) {
@@ -47,19 +50,21 @@ export const ProjectCards = (list) => list.map((project) => `
   }).join('')}
         </ul> 
         
-        <button class="skills" id="project-skills">See requirements</button>
-        </div>
+        <button class="skills">See requirements</button>
         <ul class="skills-list">
         ${mapData(project.requirements)}
         </ul>
-        <div class="project-info">
-        <p>${project.description}</p>
-        <p class="date">${project.date}</p>
-      
+        <div class="project-links">   
         <figure>
         <a href="${project.github}" class="project-github-link" target="blank" rel="noopener noreferrer">
         <img src="icons/github-icon.png" alt=${project.name} class="social-icon"/>
-        <p class="project-in-github">Project in GitHub</p>
+        <p class="project-in-github">See the code</p>
+        </a>
+        </figure>
+        <figure>
+        <a href="${project.projectURL}" class="project-github-link" target="blank" rel="noopener noreferrer">
+        <img src="poner enlace" alt=${project.name} class="social-icon"/>
+        <p class="project-in-github">Check it out</p>
         </a>
         </figure>
         </div>

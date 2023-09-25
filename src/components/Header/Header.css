@@ -26,13 +26,6 @@ header {
     font-size: var(--typography-xxs)
   }
 
-.contact-button {
-    font-size: 11px;
-    border: var(--border-green);
-    padding: 3px 10px;
-    border-radius: 6px;
-}
-
 #mobile-menu, #close-menu {
     display: none;
     color: var(--color-primary);
