@@ -42,7 +42,7 @@ export const EXPERIENCES = [
   {
     position: 'Marketing and Communication Intern',
     date: 'Jun 2004 – May 2005',
-    organization: 'Estée Lauder Companies',
+    organization: 'M·A·C Cosmetics',
     logo: '/logos/mac-cosmetics-logo.png',
     description: 'Administrative assistance in Marketing and Communication areas.',
     responsabilities: [

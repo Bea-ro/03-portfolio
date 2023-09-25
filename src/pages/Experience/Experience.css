@@ -3,12 +3,13 @@
   grid-template-columns: 35% 65%;
   grid-gap: 24px;
   padding: 40px;
-  height: 77vh;
+  height: 75vh;
 }
 
 .experience-header {
 display: flex;
 flex-direction: column;
+justify-content: center;
 gap: 24px
 }
 

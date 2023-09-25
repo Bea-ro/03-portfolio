@@ -57,6 +57,21 @@
   color: var(--color-white)
 }
 
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background:  #4C4C4C95;
+  border-radius: 20px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--color-secundary);
+  border-radius: 20px;
+  border: 3px solid var(--color-primary)
+}
+
 body {
   background: var(--color-black)
 }
@@ -78,7 +93,7 @@ button {
   background-color: var(--color-black);
   width: fit-content;
   margin: 10px;
-  cursor: pointer
+  /* cursor: pointer */
 }
 
 .title {

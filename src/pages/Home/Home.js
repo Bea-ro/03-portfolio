@@ -6,7 +6,7 @@ const main = document.querySelector('main');
 
 export const renderHome = () => {
   main.innerHTML = `
-  <div class="container">
+  <div class="container" id="home-container">
 
 <section class="personal-info">
 <p class="personal-description">${PERSONALDATA.description}</p>

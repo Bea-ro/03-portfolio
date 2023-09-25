@@ -15,5 +15,7 @@ export const Header = () => `
 <ul class="ul-social">
 ${PersonalProfile(PERSONALDATA.profiles)}
 </ul>
+<a href="mailto:${PERSONALDATA.email}">
 <button class="contact-button">Contact me</button>
+</a>
 `;

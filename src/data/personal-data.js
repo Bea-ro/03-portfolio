@@ -1,9 +1,10 @@
 export const PERSONALDATA = {
   image: '/images/personal-img.jpg',
   name: 'Beatriz',
-  surname: 'Rodríguez Maya',
+  surname: 'Rodríguez',
   city: 'Madrid',
   occupation: 'FullStack Developer',
+  email: 'b_a_ro@hotmail.com',
   techs: [
     { icon: '/icons/html-icon.png', name: 'HTML5' },
     { icon: '/icons/css-icon.png', name: 'CSS3' },
@@ -22,8 +23,12 @@ export const PERSONALDATA = {
     { link: 'https://github.com/Bea-ro', icon: '/icons/github-icon.png', name: 'GitHub' },
     { link: 'https://www.linkedin.com/in/beatrizrodriguezmaya/', icon: '/icons/linkedin-icon.png', name: 'LinkedIn' },
   ],
-  reasons: ['Trained with the best', 'Beginner encourage', 'Best practices focus'],
-  insights: ['Enjoy coding', 'Love challenges', 'Restless mind'],
+  reasons: ['I was lucky to be trained by the best',
+    'I have the encourage and enthusiam of a beginner ',
+    'I am focus on best practices and I am not afraid of refactoring'],
+  insights: ['I just simply enjoy coding',
+    'I love challenges and give my very best',
+    'I see myself as a restless mind'],
   likes: [
     { icon: '/icons/nature-icon.jpg', name: 'nature' },
     { icon: '/icons/dancing-icon.jpg', name: 'dancing' },
