@@ -2,18 +2,40 @@
   display: grid;
   grid-template-columns: 35% 65%;
   grid-gap: 24px;
-  padding: 0 24px 24px 24px;
+  padding: 40px;
+  height: 77vh;
+}
+
+.experience-header {
+display: flex;
+flex-direction: column;
+gap: 24px
+}
+
+.experience-title {
+font-size: var(--typography-xs);
+color: var(--color-secondary);
+}
+
+.marketing {
+  font-size: var(--typography-small);
+color: var(--color-primary);
 }
 
 .experiences-list {
-  padding: 24px;
-  margin: 24px 24px 0 0;
-  border-radius: 12px;
-  background-color: var(--color-light);
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 0 24px;
   animation: var(--animation-slide-in);
   height: 70vh;
   overflow-y: scroll;
-  scroll-behavior: smooth
+  scroll-behavior: smooth;
+  font-size: var(--typography-xxs)
+}
+
+.experience-card {
+  padding: 10px 10px 10px 0
 }
 
 .skills-list {
@@ -47,14 +69,7 @@
   flex-direction: column;
   gap: 18px;
 }
-.title, .subtitle {
-  padding: 0
-}
-.experience-techs {
-  padding: 0;
-  position: relative;
-  top: -12px;
-}
+
 .experiences-list {
   margin: 0;
 }

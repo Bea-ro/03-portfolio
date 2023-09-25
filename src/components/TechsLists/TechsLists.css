@@ -1,4 +1,4 @@
-#home-techs-list {
+.img-container > .techs-list {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -6,21 +6,7 @@
   margin-left: -150px
 }
 
-#projects-techs-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(40px, 1fr));
-    gap: 2px;
-    align-items: center;
-    justify-items: center;
-  }
-
-  #projects-techs-list > #Vite,  
-  #projects-techs-list > #Visual,
-  #projects-techs-list > #Github {
-    display: none;
-  }
-
-#home-tech {
+.img-container > .techs-list > .tech {
   width: 40px; 
   height: 40px; 
   display: flex;
@@ -30,6 +16,18 @@
   transform-origin: center; 
   background: transparent
 }
+
+#projects-techs-list {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+  }
+
+  #projects-techs-list > #Vite,  
+  #projects-techs-list > #Visual,
+  #projects-techs-list > #Github {
+    display: none;
+  }
 
 #projects-tech {
   display: flex;
@@ -46,17 +44,17 @@
   justify-content: space-evenly
 }
 
-#home-techs-list li:nth-child(1) { transform: rotate(0deg) translateY(-150px); }
-#home-techs-list li:nth-child(2) { transform: rotate(32.7deg) translateY(-150px); }
-#home-techs-list li:nth-child(3) { transform: rotate(65.4deg) translateY(-150px); }
-#home-techs-list li:nth-child(4) { transform: rotate(98.1deg) translateY(-150px); }
-#home-techs-list li:nth-child(5) { transform: rotate(130.8deg) translateY(-150px); }
-#home-techs-list li:nth-child(6) { transform: rotate(163.5deg) translateY(-150px); }
-#home-techs-list li:nth-child(7) { transform: rotate(196.2deg) translateY(-150px); }
-#home-techs-list li:nth-child(8) { transform: rotate(228.9deg) translateY(-150px); }
-#home-techs-list li:nth-child(9) { transform: rotate(261.6deg) translateY(-150px); }
-#home-techs-list li:nth-child(10) { transform: rotate(294.3deg) translateY(-150px); }
-#home-techs-list li:nth-child(11) { transform: rotate(327deg) translateY(-150px); }
+.img-container > .techs-list li:nth-child(1) { transform: rotate(0deg) translateY(-150px); }
+.img-container > .techs-list li:nth-child(2) { transform: rotate(32.7deg) translateY(-150px); }
+.img-container > .techs-list li:nth-child(3) { transform: rotate(65.4deg) translateY(-150px); }
+.img-container > .techs-list li:nth-child(4) { transform: rotate(98.1deg) translateY(-150px); }
+.img-container > .techs-list li:nth-child(5) { transform: rotate(130.8deg) translateY(-150px); }
+.img-container > .techs-list li:nth-child(6) { transform: rotate(163.5deg) translateY(-150px); }
+.img-container > .techs-list li:nth-child(7) { transform: rotate(196.2deg) translateY(-150px); }
+.img-container > .techs-list li:nth-child(8) { transform: rotate(228.9deg) translateY(-150px); }
+.img-container > .techs-list li:nth-child(9) { transform: rotate(261.6deg) translateY(-150px); }
+.img-container > .techs-list li:nth-child(10) { transform: rotate(294.3deg) translateY(-150px); }
+.img-container > .techs-list li:nth-child(11) { transform: rotate(327deg) translateY(-150px); }
 
   .tech-icon {
   width: 40px;
@@ -67,35 +65,37 @@
   #Github,  #canva-icon {
    border-radius: 50% 
   }
-  #Express {
+
+  .img-container > .techs-list > .tech > #Express {
     height: 30px;
     margin-left: 8px
   }
-  #MongoDB {
+
+  .img-container > .techs-list > .tech > #MongoDB {
     margin-left: -6px
   }
 
-  #project-card > .project-techs >.tech > .tech-icon {
+  #project-card > .project-techs >.tech > .tech-icon,
+  .filter > .techs-list >.tech > .tech-icon {
     height: 20px;
     width: 20px;
+  }
+
+  .filter > .techs-list >.tech > .tech-icon {
+    cursor: pointer
   }
 
   .experience-techs {
     display: flex;
     align-items: center;
-    gap: 8px;
-    padding: 12px 24px
+    gap: 26px;
+    padding: 0;
+    position: relative;
+    top: -12px;
   }
 
-  .experience-techs > .experience-tech > .tech-icon {
-    height: 40px;   
-  }
-  
-  #sap-icon {
-    width: 60px
-  }
-  #excel-icon {
-    padding-left: 8px
+  #sap-icon > img {
+    width: 70px
   }
  
   @media screen and (min-width: 480px) and (max-width: 800px) {

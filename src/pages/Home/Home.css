@@ -1,9 +1,9 @@
 .container {
   display: grid;
   grid-template-columns: 60% 40%;
-  padding: 40px;
   align-items: center;
-  height: 77vh
+  height: 77vh;
+  padding: 40px
 }
 
 .personal-info {

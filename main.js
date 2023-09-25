@@ -6,6 +6,7 @@ import { renderAbout } from './src/pages/About/About';
 import { PROJECTS } from './src/data/projects-data';
 import { navbarToggle } from './src/utils/navbar-toggle';
 import { Header } from './src/components/Header/Header';
+import { Footer } from './src/components/Footer/Footer';
 
 document.querySelector('header').innerHTML = Header();
 const main = document.querySelector('main');
@@ -16,8 +17,6 @@ const handleClic = (ev) => {
   main.innerHTML = ' ';
   if (linkHref.includes('home')) {
     main.innherHTML = renderHome();
-    document.querySelector('.techs-list').id = 'home-techs-list';
-    document.querySelectorAll('.tech').forEach((tech) => { tech.id = 'home-tech'});
   } else if (linkHref.includes('experience')) {
     main.innherHTML = renderExperience();
   } else if (linkHref.includes('projects')) {
@@ -30,5 +29,6 @@ const handleClic = (ev) => {
 const pageLinks = document.querySelectorAll('.page-link');
 pageLinks.forEach((pageLink) => pageLink.addEventListener('click', handleClic));
 
-navbarToggle();
+// navbarToggle();
 renderHome();
+document.querySelector('footer').innerHTML = Footer();

@@ -1,41 +1,9 @@
-.why-container {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-    background-color: var(--color-primary);
-    border-radius: 12px;
-    justify-content: center;
-    margin-right: 48px;
-    padding-left: 54px;
-    animation: var(--animation-slide-in)
-  }
+.reasons-list > .li-element {
+     color: var(--color-secondary);
+    font-size: var(--typography-xs);
+ }
 
-  .why-container > h3 {
-    text-transform: uppercase;
-  }  
-  
-  .reasons-list {
-    padding-left: 26px;
-  }
-  
-  @media screen and (max-width: 800px) {
-    .why-container {
-      padding: 24px;
-      animation: none;
-      margin-right: 0;
-      gap: 18px;
-      }
-  }
-  
-  @media screen and (min-width: 414px) and (max-width: 600px) {
-    .why-container {
-      padding-left: 54px;
-    }
-    }
-  
-  @media screen and (min-width: 600px) and (max-width: 900px) {
-  .why-container {
-    padding-left: 24px;
-  }
-  }
-    
+.why-title {
+  color: var(--color-primary);
+  font-size: var(--typography-medium);
+}

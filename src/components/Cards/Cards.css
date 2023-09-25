@@ -1,14 +1,29 @@
-#experience-card {
-    display: grid;
-    grid-template-columns: 1fr 4fr;
-    grid-gap: 24px;
-    padding-bottom: 24px;
-  }
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #4C4C4C95;
+  border-radius: 10px;
+  border: 1.5px solid var(--color-white);
+  padding: 2px;
+  font-size: var(--typography-xxs)
+}
+.card:hover {
+  border: 1.5px solid var(--color-primary);
+}
 
-  .logo-img {
-    width: 75%;
-    height: 75%;
-    }
+#experience-card > a {
+  position: relative;
+  height: 150px;
+  background-color: var(--color-white)
+}
+
+.logo {
+    border-radius: 3px;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
 
   .organization {
     font-size: var(--typography-xs);
@@ -19,24 +34,24 @@
     text-transform: uppercase;
   }
   
-  .experience-description {
-    position: relative;
-    top: 8px;
+  .experience-info {
+    position: absolute;
+    bottom: 0;
+    background-color: #4C4C4C95; 
+    width: 100%;
+    padding: 10px
   }
 
-  #experience-skills {
-    margin-top: 22px;
+  .description-responsabilities {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    justify-items: stretch;
+    align-items: center;
+    padding-left: 10px
   }
-
-  #project-card {
-    display: flex;
-    flex-direction: column;
-    background-color: #4C4C4C95;
-    border-radius: 10px;
-    overflow: hidden;
-    border: 1.5px solid var(--color-white);
-    padding: 2px;
-    font-size: var(--typography-xxs)
+  
+  .skills, .skills-list {
+align-self: center
   }
 
   .project-links {
@@ -44,16 +59,11 @@
   justify-content: space-around;
   padding: 10px
   }
-  
-  #project-card:hover {
-    background-color: var(--color-primary);
-  }
-  
-  .project-img-title {
+
+  .project-img-info {
     height: 300px;
     display: flex;
     flex-direction: column;
-    color: black;
     position: relative;
   }
   
@@ -63,36 +73,27 @@
     object-fit: cover;
   }
   
-  .project-title {
-    font-size: var(--typography-xs);
+  .project-title-date, .organization-date {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start
   }
   
-  .project-title-description {
+  .card-info {
     position: absolute;
     bottom: 0;
-    background-color: #4C4C4C95;
+    background-color: #4C4C4C99;
     width: 100%;
     padding: 10px
   }
-  
-
-  
-  .date {
-    position: absolute;
-    top: 0;
-    background-color: #4C4C4C95;
-    width: 100%;
-    padding: 10px
-  }
-  
-  .project-github-link {
-    padding-top: 12px;
+      
+  .project-link {
     display: flex;
-    gap: 12px;
+    gap: 5px;
     align-items: center;
   }
   
-  .project-github-link:hover, .organization:hover {
+  .project-link:hover, .organization:hover {
     text-decoration: underline; 
   }
     

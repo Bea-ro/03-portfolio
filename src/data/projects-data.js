@@ -2,14 +2,14 @@ export const PROJECTS = [
   {
     image: '/images/triarock-project.png',
     name: 'TriaRock E-commerce',
-    description: 'MERN e-commerce.',
+    description: 'MERN E-commerce.',
     date: 'July 2023',
     techs: ['React', 'JavaScript', 'CSS3', 'Node', 'Express', 'MongoDB'],
     requirements: [
       'pair programming',
       'web scrapping',
       'filters',
-      'authentication requird for saving favourite products',
+      'authentication for saving favourite products',
       'responsive performance',
     ],
     github: 'https://github.com/Bea-ro/TriaRock',
@@ -18,7 +18,7 @@ export const PROJECTS = [
   {
     image: '/images/server-project.png',
     name: 'Complete Server',
-    description: 'Server with relational modeling and authentication required created with Node, Express and MongoDB.',
+    description: 'Server with relational modeling and authentication system | Node, Express, MongoDB.',
     date: 'June 2023',
     techs: ['Node', 'Express', 'MongoDB'],
     requirements: [
@@ -27,8 +27,7 @@ export const PROJECTS = [
       'models population',
       'JWTS authentication',
       'images upload with Cloduinary storage',
-      'rate limiter',
-      'CORS',
+      'rate limiter and CORS',
     ],
     github: 'https://github.com/Bea-ro/09-complete-server',
     projectURL: 'https://complete-server-rtc.onrender.com/api/authors',
@@ -36,7 +35,7 @@ export const PROJECTS = [
   {
     image: '/images/relational-project.png',
     name: 'Relational Modeling API',
-    description: 'Server with relational modeling created with Node, Express and MongoDB.',
+    description: 'Server with relational modeling | Node, Express, MongoDB.',
     date: 'June 2023',
     techs: ['Node', 'Express', 'MongoDB'],
     requirements: [
@@ -44,7 +43,7 @@ export const PROJECTS = [
       '404 middleware',
       'models population',
       'specific field edition or deletion',
-      'own bonus: add a seed and create 3 models instead of 2',
+      'own bonus: seed + 3 models vs 2',
     ],
     github: 'https://github.com/Bea-ro/08-relational-modeling',
     projectURL: 'https://github.com/Bea-ro/08-relational-modeling',
@@ -52,13 +51,13 @@ export const PROJECTS = [
   {
     image: '/images/api-project.png',
     name: 'API Rest',
-    description: 'Server with art data created with Node, Express and MongoDB.',
+    description: 'Server with art data | Node, Express, MongoDB.',
     date: 'May 2023',
     techs: ['Node', 'Express', 'MongoDB'],
     requirements: [
       'GET, POST, PUT and DELETE endpoints',
       '404 middleware',
-      'own bonus: create two models instead of one',
+      'own bonus: 2 models vs 1',
     ],
     github: 'https://github.com/Bea-ro/07-art-api',
     projectURL: 'https://github.com/Bea-ro/07-art-api',
@@ -66,7 +65,7 @@ export const PROJECTS = [
   {
     image: '/images/games-project.png',
     name: 'Games Hub',
-    description: 'Tic, tac, toe, Hangman and Sudoku with React and JavaScript.',
+    description: 'Tic, tac, toe, Hangman and Sudoku | React, JavaScript.',
     date: 'May 2023',
     techs: ['React', 'JavaScript', 'CSS3', 'Testing'],
     requirements: [
@@ -80,14 +79,14 @@ export const PROJECTS = [
   {
     image: '/images/weather-project.png',
     name: 'Weather App',
-    description: 'Fetch to Weather Forecasting API with React and JavaScript.',
+    description: 'Fetch to Weather Forecasting API | React, JavaScript.',
     date: 'April 2023',
     techs: ['React', 'JavaScript', 'CSS3'],
     requirements: [
       'geolocation',
       'navigation with React Router',
       'different fetchs and responses',
-      'loader rendering while API response is available',
+      'loader rendering while response available',
     ],
     github: 'https://github.com/Bea-ro/05-weather-app',
     projectURL: 'https://que-tiempo-hace-hoy.netlify.app/',
@@ -95,14 +94,14 @@ export const PROJECTS = [
   {
     image: '/images/nasa-project.png',
     name: 'The astronomical image of the day',
-    description: 'Fetch to NASA APIs with React and JavaScript.',
+    description: 'Fetch to NASA API | React, JavaScript.',
     date: 'April 2023',
     techs: ['React', 'JavaScript', 'CSS3'],
     requirements: [
-      'render different data (text, image, video) from NASA API',
+      'render multimedia content from NASA API',
       'date input',
-      'bonus proposal: fetch to an additional api with a select api input',
-      'own bonus: create two pages and use routes',
+      'bonus proposal: additional fetch + select input',
+      'own bonus: 2 pages vs 1 + routes',
     ],
     github: 'https://github.com/Bea-ro/04-app-nasa',
     projectURL: ' https://imagen-astronomica-del-dia.netlify.app/',
@@ -110,14 +109,14 @@ export const PROJECTS = [
   {
     image: '/images/portfolio-project.png',
     name: 'Dynamic Portfolio',
-    description: 'Dynamic personal portfolio created with JavaScript DOM.',
+    description: 'Dynamic personal portfolio | JavaScript DOM.',
     date: 'March 2023',
     techs: ['JavaScript', 'CSS3'],
     requirements: [
       'dynamic HTML with JavaScript DOM',
       'navigation emulation in a SPA',
       'event handling',
-      'colorful and appropiate color range',
+      'colorful + appropiate color range',
     ],
     github: 'https://github.com/Bea-ro/03-portfolio',
     projectURL: 'https://developer-portfolio-brm.netlify.app/',
@@ -125,7 +124,7 @@ export const PROJECTS = [
   {
     image: '/images/dynamic-shop-project.png',
     name: 'Dynamic Shop',
-    description: 'Dynamic and responsive shop created using JavaScript DOM.',
+    description: 'Dynamic and responsive shop | JavaScript DOM.',
     date: 'February 2023',
     techs: ['JavaScript', 'CSS3'],
     requirements: [
@@ -141,7 +140,7 @@ export const PROJECTS = [
   {
     image: '/images/responsive-project.png',
     name: 'Responsive Webpage',
-    description: 'Responsive webpage created with HTML and CSS.',
+    description: 'Responsive webpage | HTML, CSS.',
     date: 'February 2023',
     techs: ['HTML5', 'CSS3'],
     requirements: [
@@ -157,7 +156,7 @@ export const PROJECTS = [
   {
     image: '/images/star-wars-project.png',
     name: 'Star Wars',
-    description: 'Dynamic webpage getting data from and API.',
+    description: 'Dynamic webpage getting data from and API | JavaScript',
     date: 'December 2022',
     techs: ['JavaScript', 'CSS3'],
     requirements: [
@@ -172,7 +171,7 @@ export const PROJECTS = [
   {
     image: '/images/color-flipper-project.png',
     name: 'Color Flipper',
-    description: 'Dynamic color flipper created with Vite.',
+    description: 'Dynamic color flipper | JavaScript, Vite.',
     date: 'December 2022',
     techs: ['CSS3', 'JavaScript'],
     requirements: [

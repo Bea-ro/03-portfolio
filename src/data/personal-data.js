@@ -24,4 +24,11 @@ export const PERSONALDATA = {
   ],
   reasons: ['Trained with the best', 'Beginner encourage', 'Best practices focus'],
   insights: ['Enjoy coding', 'Love challenges', 'Restless mind'],
+  likes: [
+    { icon: '/icons/nature-icon.jpg', name: 'nature' },
+    { icon: '/icons/dancing-icon.jpg', name: 'dancing' },
+    { icon: '/icons/morning-icon.png', name: 'morning' },
+    { icon: '/icons/sport-icon.jpg', name: 'sport' },
+    { icon: '/icons/breaking-bad-icon.jpg', name: 'breaking-bad' },
+  ],
 };

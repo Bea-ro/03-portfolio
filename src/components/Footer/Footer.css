@@ -1,0 +1,11 @@
+footer {
+    font-size: var(--typography-xxs);
+    text-align: center;
+    padding: 16px 6px;
+  }
+  
+  footer a {
+    color: var(--color-primary);
+    font-weight: bold;
+  }
+  

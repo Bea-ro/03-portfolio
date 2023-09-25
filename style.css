@@ -38,12 +38,6 @@
   --color-secondary: #E0E0E0;
 
   --typography-typeface: 'Poppins', sans-serif;
-  
-  --typography-large: 2.3rem;
-  /* --typography-medium: 2rem; */
-  /* --typography-small: 1.75rem; */
-/* --typography-xs: 1.2rem; */
-  /* --typography-xxs: 0.8125rem; */
 
   --typography-medium: 39px;
   --typography-small: 29px;
@@ -67,10 +61,6 @@ body {
   background: var(--color-black)
 }
 
-h1 {
-  font-size: 25px
-}
-
 li {
   list-style-type: none;
 }
@@ -87,29 +77,15 @@ button {
   border-radius: 6px;
   background-color: var(--color-black);
   width: fit-content;
-}
-
-footer {
-  font-size: var(--typography-xxs);
-  text-align: center;
-  padding: 16px 6px;
-}
-
-footer a {
-  color: var(--color-primary);
-  font-weight: bold;
+  margin: 10px;
+  cursor: pointer
 }
 
 .title {
-  padding: 24px;
-  font-size: var(--typography-small);
-}
-
-.subtitle {
-  padding-left: 24px;
   font-weight: bold;
   color: var(--color-primary);
-  font-size: var(--typography-large);
+  font-size: 25px;
+  padding-left: 40px;
 }
 
 .li-element:before {
@@ -117,11 +93,3 @@ footer a {
   padding-right: 15px;
 }
 
-@media screen and (max-width: 600px) {
-.title {
-  font-size: var(--typography-xs)
-}
-.subtitle {
-  font-size: var(--typography-medium)
-}
-}
