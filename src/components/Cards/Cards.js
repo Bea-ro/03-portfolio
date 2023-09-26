@@ -17,11 +17,11 @@ export const ExperienceCards = () => EXPERIENCES.map((experience) => `
   </a>
   <div class="description-responsabilities">
   <p class="experience-description">${experience.description}</p>
-      <button class="skills">See responsabilities</button>
+      <button class="skills" id="responsabilities">See responsabilities</button>
+      </div>
       <ul class="skills-list">
       ${mapData(experience.responsabilities)}
       </ul>
-      </div>
       </li>
       `).join('');
 
@@ -46,7 +46,7 @@ export const ProjectCards = (list) => list.map((project) => `
   }).join('')}
         </ul> 
         
-        <button class="skills">See requirements</button>
+        <button class="skills" id="requirements">See requirements</button>
         <ul class="skills-list">
         ${mapData(project.requirements)}
         </ul>
@@ -59,8 +59,7 @@ export const ProjectCards = (list) => list.map((project) => `
         </figure>
         <figure>
         <a href="${project.projectURL}" class="project-link" target="blank" rel="noopener noreferrer">
-        <img src="poner enlace" alt=${project.name} class="social-icon"/>
-        <p class="project-in-github">Check it out</p>
+        <span class="link-icon">🔗</span><p class="project-in-github">Check it out</p>
         </a>
         </figure>
         </div>

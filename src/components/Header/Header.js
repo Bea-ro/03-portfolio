@@ -11,7 +11,7 @@ export const Header = () => `
   <li><a href="/about" class="page-link" id="about-link">About</a></li>
 </ul>
 </nav>   
-<span class="mobile-menu" id="mobile-menu">\u9776</span>
+<span class="mobile-menu" id="mobile-menu">\u2630</span>
 <ul class="ul-social">
 ${PersonalProfile(PERSONALDATA.profiles)}
 </ul>

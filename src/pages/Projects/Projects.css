@@ -1,23 +1,21 @@
-.parenthesis {
-  color: var(--color-secondary)
-}
-
 .filter {
   display: flex;
   flex-direction: column;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
   align-items: center;
   gap: 3px;
 }
 
 .filter-title {
-  font-size: 16px
+  font-size: 14px;
+  text-transform: uppercase;
+  color: var(--color-grey-text)
 }
 
 .projects-list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
-  grid-gap: 32px;
+  grid-gap: 80px;
   padding: 0 48px 24px 48px;
   animation: var(--animation-slide-in);
 }
@@ -42,25 +40,17 @@
 }
 
 .no-projects-message {
-  margin: 24px 24px 24px 48px;
-  padding: 18px;
-  position: relative;
-  bottom: 24px;
   animation: var(--animation-slide-in);
-  background-color: var(--color-light);
-  border-radius: 8px;
-  width: fit-content;
+  text-align: center;
+  height: 60vh
 }
 
 @media screen and (max-width: 1086px) {
-  /* .filter {
+  .filter {
     display: block;
     padding: 0 30px 18px 30px;
-  } */
+  }
   .projects-list {
     animation: none;
   }
-  .no-projects-message {
-  margin-left: 24px 
-}
 }

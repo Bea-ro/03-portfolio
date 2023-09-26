@@ -18,7 +18,7 @@ export const PERSONALDATA = {
     { icon: '/icons/express-icon.png', name: 'Express' },
     { icon: '/icons/mongodb-icon.png', name: 'MongoDB' },
   ],
-  description: 'With the encourage of a beginner <br> and wide experience in Marketing',
+  description: 'With the encourage of a beginner and wide experience in Marketing',
   profiles: [
     { link: 'https://github.com/Bea-ro', icon: '/icons/github-icon.png', name: 'GitHub' },
     { link: 'https://www.linkedin.com/in/beatrizrodriguezmaya/', icon: '/icons/linkedin-icon.png', name: 'LinkedIn' },

@@ -26,19 +26,14 @@
 }
 
 :root {
- 
-  --color-light-purple: #b490fe;
-  --color-purple: #ac85dd;
-  --color-green: #defc98;
-  --color-light: #f4f3ea;
-  
-  --color-black: #000000;
-  --color-white: #FFFFFF;
   --color-primary: #70FF00;
   --color-secondary: #E0E0E0;
-
+  --color-black: #000000;
+  --color-white: #FFFFFF;
+  --color-grey-background: #4C4C4C95;
+  --color-grey-text: #828282;
+ 
   --typography-typeface: 'Poppins', sans-serif;
-
   --typography-medium: 39px;
   --typography-small: 29px;
   --typography-xs: 20px;
@@ -62,7 +57,7 @@
 }
 
 *::-webkit-scrollbar-track {
-  background:  #4C4C4C95;
+  background: var(--color-grey-background);
   border-radius: 20px;
 }
 
@@ -93,7 +88,7 @@ button {
   background-color: var(--color-black);
   width: fit-content;
   margin: 10px;
-  /* cursor: pointer */
+  cursor: pointer 
 }
 
 .title {
@@ -101,6 +96,10 @@ button {
   color: var(--color-primary);
   font-size: 25px;
   padding-left: 40px;
+}
+
+.parenthesis {
+  color: var(--color-secondary)
 }
 
 .li-element:before {

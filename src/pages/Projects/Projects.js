@@ -16,7 +16,6 @@ export const renderProjects = (list) => {
 <ul class="projects-list">
   ${ProjectCards(list)}
   </ul> 
-  
 `;
 
   skillsToggle();

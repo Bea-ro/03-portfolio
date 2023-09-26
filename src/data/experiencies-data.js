@@ -16,7 +16,7 @@ export const EXPERIENCES = [
     position: 'Marketing Product Manager',
     date: 'Jan 2012 – May 2018',
     organization: 'Estée Lauder Companies',
-    logo: '/logos/estee-lauder-logo.svg',
+    logo: '/logos/estee-lauder-logo.png',
     description: 'Management of M·A·C Cosmetics products in Iberia.',
     responsabilities: [
       'Distribution and pricing strategies ensuring profitability.',

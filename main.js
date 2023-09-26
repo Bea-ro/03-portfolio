@@ -1,12 +1,12 @@
 import './style.css';
+import { Header } from './src/components/Header/Header';
 import { renderHome } from './src/pages/Home/Home';
 import { renderProjects } from './src/pages/Projects/Projects';
+import { PROJECTS } from './src/data/projects-data';
 import { renderExperience } from './src/pages/Experience/Experience';
 import { renderAbout } from './src/pages/About/About';
-import { PROJECTS } from './src/data/projects-data';
-import { navbarToggle } from './src/utils/navbar-toggle';
-import { Header } from './src/components/Header/Header';
 import { Footer } from './src/components/Footer/Footer';
+import { navbarToggle } from './src/utils/navbar-toggle';
 
 document.querySelector('header').innerHTML = Header();
 const main = document.querySelector('main');
@@ -14,7 +14,7 @@ const main = document.querySelector('main');
 const handleClic = (ev) => {
   ev.preventDefault();
   const linkHref = ev.target.href;
-  main.innerHTML = ' ';
+
   if (linkHref.includes('home')) {
     main.innherHTML = renderHome();
   } else if (linkHref.includes('experience')) {
@@ -26,9 +26,19 @@ const handleClic = (ev) => {
   }
 };
 
+export const handleImgClic = (ev) => {
+  ev.preventDefault();
+  const imgSrc = ev.target.src;
+  if (imgSrc.includes('personal-img')) {
+    main.innherHTML = renderProjects(PROJECTS);
+  }
+};
+
+renderHome();
+
 const pageLinks = document.querySelectorAll('.page-link');
 pageLinks.forEach((pageLink) => pageLink.addEventListener('click', handleClic));
 
-// navbarToggle();
-renderHome();
 document.querySelector('footer').innerHTML = Footer();
+
+navbarToggle();

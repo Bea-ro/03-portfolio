@@ -19,13 +19,20 @@
 
 #projects-techs-list {
     display: flex;
-    gap: 18px;
+    gap: 22px;
     align-items: center;
   }
 
-  #projects-techs-list > #Vite,  
-  #projects-techs-list > #Visual,
-  #projects-techs-list > #Github {
+  .project-techs {
+    display: flex;
+    gap: 3px;
+    padding: 10px;
+    justify-content: space-evenly
+  }
+  
+#projects-techs-list li:nth-child(6),
+#projects-techs-list li:nth-child(7),
+#projects-techs-list li:nth-child(8) {
     display: none;
   }
 
@@ -35,13 +42,6 @@
   align-items: center;
   transform-origin: center; 
   background: transparent
-}
-
-.project-techs {
-  display: flex;
-  gap: 3px;
-  padding: 10px;
-  justify-content: space-evenly
 }
 
 .img-container > .techs-list li:nth-child(1) { transform: rotate(0deg) translateY(-150px); }
@@ -84,6 +84,9 @@
   .filter > .techs-list >.tech > .tech-icon {
     cursor: pointer
   }
+  .filter > .techs-list >.tech > .tech-icon:hover {
+    transform: scale(1.1);
+  }
 
   .experience-techs {
     display: flex;
@@ -91,15 +94,17 @@
     gap: 26px;
     padding: 0;
     position: relative;
-    top: -12px;
   }
 
   #sap-icon > img {
     width: 70px
   }
  
-  @media screen and (min-width: 480px) and (max-width: 800px) {
-  .techs-list {
-    gap: 0;
-  }
+  @media screen and (max-width: 800px) {
+    .img-container > .techs-list {
+      width: 90%;
+      height: 90%;
+      animation: none;
+      margin: -150px 0 150px 0 
+    }
   }
