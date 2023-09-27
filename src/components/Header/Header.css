@@ -35,20 +35,33 @@ header {
     }
 
     @media screen and (max-width: 600px) {
+      header {
+        margin: 10px 15px;
+        height: auto;
+      }
         nav {
           display: none;
         }
         .ul-navbar {
-          display: block;
+          display: flex;
+          width: 75%;
+          gap: 24px
          }
          #mobile-menu {
-        display: block;
+        display: flex;
+        justify-content: flex-end;
         }  
+        .mobile-contacts {
+          display: flex;
+          align-items: center;
+          justify-content: flex-start
+        }
         [class~='hide'] {
           display: none;
         }
         [class~='show'] {
           display: block;
         }
+        
       }
       

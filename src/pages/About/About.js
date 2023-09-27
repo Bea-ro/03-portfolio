@@ -19,10 +19,9 @@ ${mapData(PERSONALDATA.reasons)}
 <ul class="reasons-list">
 ${mapData(PERSONALDATA.insights)}
 </ul>              
-<h3 class="why-title">I like...</h3>
 </section>
   <section class="img-container">
-  <img src=${PERSONALDATA.image} alt=${PERSONALDATA.name} class="personal-img"/>
+  <h3 class="why-title">I like...</h3>
   ${LikesList}
   </section>
   </div>

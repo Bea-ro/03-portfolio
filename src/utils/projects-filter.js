@@ -4,9 +4,11 @@ import { renderProjects } from '../pages/Projects/Projects';
 const main = document.querySelector('main');
 
 export const projectsFilter = () => {
-  const filterByTech = (tech, projects) => projects.filter((project) => project.techs.includes(tech));
+  const filterByTech = (tech, projects) =>
+    projects.filter((project) => project.techs.includes(tech));
 
   const handleFilter = (ev) => {
+
     const filteredList = filterByTech(ev.target.alt, PROJECTS);
     renderProjects(filteredList);
 
@@ -19,6 +21,15 @@ export const projectsFilter = () => {
     } else {
       noProjectsMessage.remove();
     }
+    const clearButton = document.querySelector('.clear');
+    clearButton.classList.toggle('show-btn');
+
+    const techsToHide = document.querySelectorAll('.tech-icon')
+    techsToHide.forEach((tech) => {
+      if (tech.alt !== ev.target.alt) {
+        tech.classList.toggle('hidden');
+      }
+    });
   };
 
   const techIcons = document.querySelectorAll('.tech-icon');
@@ -26,5 +37,14 @@ export const projectsFilter = () => {
   techIcons.forEach((techIcon) => techIcon.addEventListener('click', handleFilter));
 
   document.querySelector('.techs-list').id = 'projects-techs-list';
-  document.querySelectorAll('.tech').forEach((tech) => { tech.id = 'projects-tech'});
+  document.querySelectorAll('.tech').forEach((tech) => {
+    tech.id = 'projects-tech';
+  });
+};
+
+export const clearFilter = () => {
+  const handleClear = () => {
+    renderProjects(PROJECTS);
+  };
+  document.querySelector('.clear').addEventListener('click', handleClear);
 };

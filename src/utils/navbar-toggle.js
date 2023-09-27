@@ -7,6 +7,7 @@ export const navbarToggle = () => {
     } else {
       mobileMenu.innerHTML = 'X';
     }
+    document.querySelector('.mobile-contacts').classList.toggle('hide');
   };
   mobileMenu.addEventListener('click', showMenu);
 };

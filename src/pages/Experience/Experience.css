@@ -34,7 +34,7 @@
   font-size: var(--typography-xxs);
 }
 
-@media screen and (max-width: 856px) {
+@media screen and (max-width: 600px) {
   .experience-container {
     display: flex;
     flex-direction: column;

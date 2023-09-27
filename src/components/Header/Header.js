@@ -3,6 +3,7 @@ import { PERSONALDATA } from '../../data/personal-data';
 import { PersonalProfile } from '../PersonalProfile/PersonalProfile';
 
 export const Header = () => `
+<span class="mobile-menu" id="mobile-menu">\u2630</span>
 <nav class="hide">
 <ul class="ul-navbar">
   <li><a href="/home" class="page-link" id="home-link">Beatriz</a></li>
@@ -11,11 +12,12 @@ export const Header = () => `
   <li><a href="/about" class="page-link" id="about-link">About</a></li>
 </ul>
 </nav>   
-<span class="mobile-menu" id="mobile-menu">\u2630</span>
+<div class="mobile-contacts">
 <ul class="ul-social">
 ${PersonalProfile(PERSONALDATA.profiles)}
 </ul>
 <a href="mailto:${PERSONALDATA.email}">
 <button class="contact-button">Contact me</button>
 </a>
+</div>
 `;

@@ -12,6 +12,22 @@
   color: var(--color-grey-text)
 }
 
+.filters-and-clear {
+display: flex
+}
+
+.clear {
+display: none;
+}
+
+[class~='show-btn'] {
+  display: block;
+}
+
+.hidden {
+  display: none
+}
+
 .projects-list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
@@ -45,12 +61,11 @@
   height: 60vh
 }
 
-@media screen and (max-width: 1086px) {
-  .filter {
-    display: block;
-    padding: 0 30px 18px 30px;
-  }
-  .projects-list {
+@media screen and (max-width: 600px) {
+.filter {
+  padding: 20px;
+}
+.projects-list {
     animation: none;
   }
 }
