@@ -8,4 +8,9 @@ footer {
     color: var(--color-primary);
     font-weight: bold;
   }
-  
+
+  @media screen and (max-width: 600px) {
+    footer {
+      padding: 16px 0;
+  }
+}

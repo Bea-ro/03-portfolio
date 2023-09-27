@@ -21,7 +21,7 @@ height: 75vh
     font-size: 16px;
  }
 
- @media screen and (max-width: 600px) {
+ @media screen and (max-width: 760px) {
  #about-container {
   height: auto;
   padding: 30px 30px 0px 30px
