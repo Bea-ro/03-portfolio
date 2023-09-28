@@ -3,7 +3,9 @@ import { EXPERIENCES } from '../../data/experiencies-data';
 import { mapData } from '../../utils/map';
 import { PERSONALDATA } from '../../data/personal-data';
 
-export const ExperienceCards = () => EXPERIENCES.map((experience) => `
+export const ExperienceCards = () =>
+  EXPERIENCES.map(
+    (experience) => `
   <li class="card" id="experience-card">
   <a href="${experience.organizationURL}" target="blank" rel="noopener noreferrer">
   <img src=${experience.logo} alt=${experience.organization} class="logo"/>     
@@ -23,11 +25,17 @@ export const ExperienceCards = () => EXPERIENCES.map((experience) => `
       ${mapData(experience.responsabilities)}
       </ul>
       </li>
-      `).join('');
+      `
+  ).join('');
 
-export const ProjectCards = (list) => list.map((project) => `
-<li class="card" id="project-card">
-        <a href=${project.projectURL} target="blank" rel="noopener noreferrer" class="project-img-info">
+export const ProjectCards = (list) =>
+  list
+    .map(
+      (project) => `
+        <li class="card" id="project-card">
+        <a href=${
+          project.projectURL
+        } target="blank" rel="noopener noreferrer" class="project-img-info">
         <img src=${project.image} alt=${project.name} class="project-img"/>
         <div class="card-info">
         <div class="project-title-date">
@@ -36,14 +44,17 @@ export const ProjectCards = (list) => list.map((project) => `
         </div>
         <p class="project-description">${project.description}</p>
         </div>
+        <p class = ${project.name === 'Your Art API' ? 'progress-show' : 'progress-hide'} id='in-progress'>In progress</p>
         </a>
         <ul class="project-techs">
-        ${PERSONALDATA.techs.map((tech) => {
-    if (project.techs.includes(tech.name)) {
-      return `<li class="tech">
+        ${PERSONALDATA.techs
+          .map((tech) => {
+            if (project.techs.includes(tech.name)) {
+              return `<li class="tech">
               <img src=${tech.icon} alt=${tech.name} class="tech-icon" id=${tech.name}/></li>`;
-    }
-  }).join('')}
+            }
+          })
+          .join('')}
         </ul> 
         
         <button class="skills" id="requirements">See requirements</button>
@@ -58,9 +69,14 @@ export const ProjectCards = (list) => list.map((project) => `
         </a>
         </figure>
         <figure>
-        <a href="${project.projectURL}" class="project-link" target="blank" rel="noopener noreferrer">
+        <a href="${
+          project.projectURL
+        }" class="project-link" target="blank" rel="noopener noreferrer">
         <span class="link-icon">🔗</span><p class="project-in-github">Check it out</p>
         </a>
         </figure>
         </div>
-    </li>`).join('');
+    </li>`
+  ).join('');
+
+

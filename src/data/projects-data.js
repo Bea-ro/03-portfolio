@@ -1,5 +1,21 @@
 export const PROJECTS = [
   {
+    image: '/images/art-app-project.png',
+    name: 'Your Art API',
+    description: 'Art API editable from fronted.',
+    date: 'September 2023',
+    techs: ['Next', 'TypeScript', 'React', 'Styled-Components', 'Node', 'Express', 'MongoDB'],
+    requirements: [
+      'ISR',
+      'React Hook Form',
+      'authentication for some routes',
+      'styled components',
+      'React Testing Library',
+    ],
+    github: 'https://github.com/Bea-ro/10-art-app',
+    projectURL: 'https://github.com/Bea-ro/10-art-app',
+  },
+  {
     image: '/images/triarock-project.png',
     name: 'TriaRock E-commerce',
     description: 'MERN E-commerce.',
