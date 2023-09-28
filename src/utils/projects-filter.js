@@ -37,9 +37,7 @@ export const projectsFilter = () => {
   techIcons.forEach((techIcon) => techIcon.addEventListener('click', handleFilter));
 
   document.querySelector('.techs-list').id = 'projects-techs-list';
-  document.querySelectorAll('.tech').forEach((tech) => {
-    tech.id = 'projects-tech';
-  });
+
 };
 
 export const clearFilter = () => {

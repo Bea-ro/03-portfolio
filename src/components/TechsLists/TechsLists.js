@@ -3,7 +3,7 @@ import { PERSONALDATA } from '../../data/personal-data';
 
 export const TechsList = `
 <ul class="techs-list">
-${PERSONALDATA.techs.map((tech) => `<li class="tech">
+${PERSONALDATA.techs.map((tech) => `<li class="tech" id=${`projects-tech-${tech.name}`}>
 <img src=${tech.icon} alt=${tech.name} class="tech-icon" id=${tech.name} />
 </li>`).join('')}
 </ul> 
