@@ -13,7 +13,7 @@ export const PROJECTS = [
       'React Testing Library',
     ],
     github: 'https://github.com/Bea-ro/10-art-app',
-    projectURL: 'https://github.com/Bea-ro/10-art-app',
+    projectURL: 'https://your-art-app.vercel.app/',
   },
   {
     image: '/images/triarock-project.png',

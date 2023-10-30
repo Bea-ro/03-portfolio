@@ -44,7 +44,7 @@ export const ProjectCards = (list) =>
         </div>
         <p class="project-description">${project.description}</p>
         </div>
-        <p class = ${project.name === 'Your Art API' ? 'progress-show' : 'progress-hide'} id='in-progress'>In progress</p>
+        <p class = ${project.name === 'Enter project name here when it is not finished' ? 'progress-show' : 'progress-hide'} id='in-progress'>In progress</p>
         </a>
         <ul class="project-techs">
         ${PERSONALDATA.techs
