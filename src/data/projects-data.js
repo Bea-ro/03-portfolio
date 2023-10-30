@@ -9,7 +9,7 @@ export const PROJECTS = [
       'ISR',
       'React Hook Form',
       'authentication for some routes',
-      'styled components',
+      'Styled Components',
       'React Testing Library',
     ],
     github: 'https://github.com/Bea-ro/10-art-app',
