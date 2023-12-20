@@ -10,6 +10,7 @@ import { navbarToggle } from './src/utils/navbar-toggle';
 
 document.querySelector('header').innerHTML = Header();
 const main = document.querySelector('main');
+const pageLinks = document.querySelectorAll('.page-link');
 
 const handleClic = (ev) => {
   ev.preventDefault();
@@ -24,6 +25,12 @@ const handleClic = (ev) => {
   } else if (linkHref.includes('about')) {
     main.innherHTML = renderAbout();
   }
+
+  pageLinks.forEach((pageLink) => {
+    pageLink.href === ev.target.href
+      ? (pageLink.className = 'selected-link')
+      : (pageLink.className = 'page-link');
+  });
 };
 
 export const handleImgClic = (ev) => {
@@ -36,7 +43,6 @@ export const handleImgClic = (ev) => {
 
 renderHome();
 
-const pageLinks = document.querySelectorAll('.page-link');
 pageLinks.forEach((pageLink) => pageLink.addEventListener('click', handleClic));
 
 document.querySelector('footer').innerHTML = Footer();

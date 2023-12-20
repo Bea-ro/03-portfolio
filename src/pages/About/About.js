@@ -2,7 +2,6 @@ import './About.css';
 import { PERSONALDATA } from '../../data/personal-data';
 import { mapData } from '../../utils/map';
 import { LikesList } from '../../components/LikesList/LikesList';
-import { handleImgClic } from '../../../main';
 
 const main = document.querySelector('main');
 
@@ -26,7 +25,4 @@ ${mapData(PERSONALDATA.insights)}
   </section>
   </div>
   `;
-
-  const imgLink = document.querySelector('.personal-img');
-  imgLink.addEventListener('click', handleImgClic);
 };

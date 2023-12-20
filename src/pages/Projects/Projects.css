@@ -9,15 +9,15 @@
 .filter-title {
   font-size: 14px;
   text-transform: uppercase;
-  color: var(--color-grey-text)
+  color: var(--color-grey-text);
 }
 
 .filters-and-clear {
-display: flex
+  display: flex;
 }
 
 .clear {
-display: none;
+  display: none;
 }
 
 [class~='show-btn'] {
@@ -25,7 +25,7 @@ display: none;
 }
 
 .hidden {
-  display: none
+  display: none;
 }
 
 .projects-list {
@@ -47,7 +47,7 @@ display: none;
 }
 
 .li-element {
-  color: var(--color-black)
+  color: var(--color-black);
 }
 
 [class~='show-ev'] {
@@ -58,14 +58,14 @@ display: none;
 .no-projects-message {
   animation: var(--animation-slide-in);
   text-align: center;
-  height: 60vh
+  height: 60vh;
 }
 
 @media screen and (max-width: 600px) {
-.filter {
-  padding: 20px;
-}
-.projects-list {
+  .filter {
+    padding: 20px;
+  }
+  .projects-list {
     animation: none;
   }
 }

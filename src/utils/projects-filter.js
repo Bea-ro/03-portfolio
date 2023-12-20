@@ -8,7 +8,6 @@ export const projectsFilter = () => {
     projects.filter((project) => project.techs.includes(tech));
 
   const handleFilter = (ev) => {
-
     const filteredList = filterByTech(ev.target.alt, PROJECTS);
     renderProjects(filteredList);
 
@@ -24,9 +23,9 @@ export const projectsFilter = () => {
     const clearButton = document.querySelector('.clear');
     clearButton.classList.toggle('show-btn');
 
-    const techsToHide = document.querySelectorAll('.tech-icon')
+    const techsToHide = document.querySelectorAll('.tech');
     techsToHide.forEach((tech) => {
-      if (tech.alt !== ev.target.alt) {
+      if (!tech.id.includes(ev.target.id)) {
         tech.classList.toggle('hidden');
       }
     });
@@ -37,7 +36,6 @@ export const projectsFilter = () => {
   techIcons.forEach((techIcon) => techIcon.addEventListener('click', handleFilter));
 
   document.querySelector('.techs-list').id = 'projects-techs-list';
-
 };
 
 export const clearFilter = () => {
