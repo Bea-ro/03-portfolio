@@ -19,7 +19,7 @@
 
 #projects-techs-list {
   display: flex;
-  gap: 22px;
+  gap: 18px;
   align-items: center;
   margin-top: 8px;
 }
