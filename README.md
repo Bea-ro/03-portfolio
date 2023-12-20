@@ -8,4 +8,4 @@
 - Dynamic page trhough **DOM events**.
 - Responsive page through **media queries**.
 - Careful look and feel, including **animations** and flex and **grid** layouts, among others.
-- Deployment with **Vite** and **Netlify**.
+- Deployed on **Netlify**.
