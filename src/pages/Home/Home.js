@@ -18,12 +18,12 @@ export const renderHome = () => {
 <p class="location">Based in ${PERSONALDATA.city}</p>  
 </section>
 <section class="img-container">
-<img src=${PERSONALDATA.image} alt=${PERSONALDATA.name} class="personal-img"/>
-${TechsList}
+
 </section>
 </div>
 `;
-
+  const imgContainer = document.querySelector('.img-container');
+  TechsList(PERSONALDATA.techs, imgContainer);
   const imgLink = document.querySelector('.personal-img');
   imgLink.addEventListener('click', handleImgClic);
   const xmasImg = document.querySelector('.christmas-icon');

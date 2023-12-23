@@ -1,16 +1,16 @@
 export const xmasIcons = [
   {
-    name: 'melchor',
-    image: '/icons/melchor.png',
-    credit: {
-      href: 'https://www.flaticon.es/iconos-gratis/melchor',
-      title: 'melchor iconos',
-      text: 'Melchor iconos creados por Freepik - Flaticon'
+    name: 'star',
+    icon: '/icons/santa-estrella.png',
+    cedit: {
+      href: 'https://www.flaticon.es/iconos-gratis/estrella-sagrada',
+      title: 'estrella sagrada iconos',
+      text: 'Estrella sagrada iconos creados por Freepik - Flaticon'
     }
   },
   {
     name: 'camel',
-    image: '/icons/camel.png',
+    icon: '/icons/camel.png',
     credit: {
       href: 'https://www.flaticon.es/iconos-gratis/camello',
       title: 'camello iconos',
@@ -18,8 +18,17 @@ export const xmasIcons = [
     }
   },
   {
+    name: 'melchor',
+    icon: '/icons/melchor.png',
+    credit: {
+      href: 'https://www.flaticon.es/iconos-gratis/melchor',
+      title: 'melchor iconos',
+      text: 'Melchor iconos creados por Freepik - Flaticon'
+    }
+  },
+  {
     name: 'gaspar',
-    image: '/icons/gaspar.png',
+    icon: '/icons/gaspar.png',
     credit: {
       href: 'https://www.flaticon.es/iconos-gratis/gaspar',
       title: 'gaspar iconos',
@@ -28,7 +37,7 @@ export const xmasIcons = [
   },
   {
     name: 'baltasar',
-    image: '/icons/baltasar.png',
+    icon: '/icons/baltasar.png',
     credit: {
       href: 'https://www.flaticon.es/iconos-gratis/baltasar',
       title: 'baltasar iconos',
@@ -36,17 +45,8 @@ export const xmasIcons = [
     }
   },
   {
-    name: 'star',
-    image: '/icons/santa-estrella.png',
-    cedit: {
-      href: 'https://www.flaticon.es/iconos-gratis/estrella-sagrada',
-      title: 'estrella sagrada iconos',
-      text: 'Estrella sagrada iconos creados por Freepik - Flaticon'
-    }
-  },
-  {
     name: 'gifts',
-    image: '/icons/gifts.png',
+    icon: '/icons/gifts.png',
     credit: {
       href: 'https://www.flaticon.es/iconos-gratis/regalo',
       title: 'regalo iconos',

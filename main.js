@@ -7,6 +7,7 @@ import { renderExperience } from './src/pages/Experience/Experience';
 import { renderAbout } from './src/pages/About/About';
 import { Footer } from './src/components/Footer/Footer';
 import { navbarToggle } from './src/utils/navbar-toggle';
+import { TechsList } from './src/components/TechsLists/TechsLists';
 
 document.querySelector('header').innerHTML = Header();
 const main = document.querySelector('main');
