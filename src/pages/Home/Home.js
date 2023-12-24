@@ -4,11 +4,13 @@ import { TechsList } from '../../components/TechsLists/TechsLists';
 import { handleImgClic } from '../../../main';
 import { Christmas } from '../../components/Christmas/Christmas';
 import { xmasEvent } from '../../utils/christmas-event';
+import { rain } from '../../utils/christmas-animation';
 
 const main = document.querySelector('main');
 
 export const renderHome = () => {
   main.innerHTML = `
+  <div class="rain-container"></div>
   <div class="christmas-icon-container">${Christmas}</div>
   <div class="container" id="home-container">
 <section class="personal-info">

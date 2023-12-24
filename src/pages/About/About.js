@@ -6,6 +6,7 @@ import { LikesList } from '../../components/LikesList/LikesList';
 const main = document.querySelector('main');
 
 export const renderAbout = () => {
+  document.querySelector('body').classList.remove('body-home');
   main.innerHTML = `
   <h1 class="title">about<span class="parenthesis">( )</span></h1>
   <div class="container" id="about-container">

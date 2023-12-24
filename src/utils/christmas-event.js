@@ -1,5 +1,6 @@
 import { TechsList } from '../components/TechsLists/TechsLists';
 import { xmasIcons } from '../data/christmas-data';
+import { rain } from './christmas-animation';
 
 const xmasIconHandle = (xmasImg, body) => {
   const index = xmasIcons.findIndex((icon) => icon.name === xmasImg.alt);
@@ -19,6 +20,7 @@ const xmasIconHandle = (xmasImg, body) => {
       icon.style.width = '50px';
       icon.style.height = '50px';
     });
+    rain();
   }
 
   const xmasImgWidth = xmasImg.getBoundingClientRect().width;

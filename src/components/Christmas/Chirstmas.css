@@ -2,4 +2,11 @@
   height: 75px;
   z-index: 1;
   position: absolute;
+  left: 50%;
+  top: 30%;
+  cursor: pointer;
+}
+
+.christmas-icon:hover {
+  transform: scale(1.1);
 }

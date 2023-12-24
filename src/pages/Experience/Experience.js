@@ -6,6 +6,7 @@ import { skillsToggle } from '../../utils/show-skills-event';
 const main = document.querySelector('main');
 
 export const renderExperience = () => {
+  document.querySelector('body').classList.remove('body-home');
   main.innerHTML = `
   <h1 class="title">experience<span class="parenthesis">( )</span></h1>
   <section class="experience-container">

@@ -8,6 +8,7 @@ import { PERSONALDATA } from '../../data/personal-data';
 const main = document.querySelector('main');
 
 export const renderProjects = (list) => {
+  document.querySelector('body').classList.remove('body-home');
   main.innerHTML = `
   <h1 class="title" id="projects-subtitle">projects<span class="parenthesis">( )</span></h1>
 <div class="filter">
