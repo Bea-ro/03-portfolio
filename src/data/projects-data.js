@@ -1,5 +1,15 @@
 export const PROJECTS = [
   {
+    image: '/images/alondra-project.png',
+    name: 'Centro de belleza Alondra',
+    description: 'Beauty Center app.',
+    date: 'December 2023',
+    techs: ['Angular', 'TypeScript'],
+    requirements: ['Mobile first'],
+    github: 'https://github.com/Bea-ro/centro-belleza-alondra',
+    projectURL: null
+  },
+  {
     image: '/images/art-app-project.png',
     name: 'Your Art API',
     description: 'Art API editable from fronted.',
@@ -10,10 +20,10 @@ export const PROJECTS = [
       'React Hook Form',
       'authentication for some routes',
       'Styled Components',
-      'React Testing Library',
+      'React Testing Library'
     ],
     github: 'https://github.com/Bea-ro/10-art-app',
-    projectURL: 'https://your-art-app.vercel.app/',
+    projectURL: 'https://your-art-app.vercel.app/'
   },
   {
     image: '/images/triarock-project.png',
@@ -26,15 +36,16 @@ export const PROJECTS = [
       'web scrapping',
       'filters',
       'authentication for saving favourite products',
-      'responsive performance',
+      'responsive performance'
     ],
     github: 'https://github.com/Bea-ro/TriaRock',
-    projectURL: 'https://triarock.netlify.app/',
+    projectURL: 'https://triarock.netlify.app/'
   },
   {
     image: '/images/server-project.png',
     name: 'Complete Server',
-    description: 'Server with relational modeling and authentication system | Node, Express, MongoDB.',
+    description:
+      'Server with relational modeling and authentication system | Node, Express, MongoDB.',
     date: 'June 2023',
     techs: ['Node', 'Express', 'MongoDB'],
     requirements: [
@@ -43,10 +54,10 @@ export const PROJECTS = [
       'models population',
       'JWTS authentication',
       'images upload with Cloduinary storage',
-      'rate limiter and CORS',
+      'rate limiter and CORS'
     ],
     github: 'https://github.com/Bea-ro/09-complete-server',
-    projectURL: 'https://complete-server-rtc.onrender.com/api/authors',
+    projectURL: 'https://complete-server-rtc.onrender.com/api/authors'
   },
   {
     image: '/images/relational-project.png',
@@ -59,10 +70,10 @@ export const PROJECTS = [
       '404 middleware',
       'models population',
       'specific field edition or deletion',
-      'own bonus: seed + 3 models vs 2',
+      'own bonus: seed + 3 models vs 2'
     ],
     github: 'https://github.com/Bea-ro/08-relational-modeling',
-    projectURL: 'https://github.com/Bea-ro/08-relational-modeling',
+    projectURL: 'https://github.com/Bea-ro/08-relational-modeling'
   },
   {
     image: '/images/api-project.png',
@@ -73,10 +84,10 @@ export const PROJECTS = [
     requirements: [
       'GET, POST, PUT and DELETE endpoints',
       '404 middleware',
-      'own bonus: 2 models vs 1',
+      'own bonus: 2 models vs 1'
     ],
     github: 'https://github.com/Bea-ro/07-art-api',
-    projectURL: 'https://github.com/Bea-ro/07-art-api',
+    projectURL: 'https://github.com/Bea-ro/07-art-api'
   },
   {
     image: '/images/games-project.png',
@@ -84,13 +95,9 @@ export const PROJECTS = [
     description: 'Tic, tac, toe, Hangman and Sudoku | React, JavaScript.',
     date: 'May 2023',
     techs: ['React', 'JavaScript', 'CSS3', 'Testing'],
-    requirements: [
-      'limit chances',
-      'include testing',
-      'bonus proposal: authentication required',
-    ],
+    requirements: ['limit chances', 'include testing', 'bonus proposal: authentication required'],
     github: 'https://github.com/Bea-ro/06-games-hub',
-    projectURL: 'https://a-que-jugamos.netlify.app/',
+    projectURL: 'https://a-que-jugamos.netlify.app/'
   },
   {
     image: '/images/weather-project.png',
@@ -102,10 +109,10 @@ export const PROJECTS = [
       'geolocation',
       'navigation with React Router',
       'different fetchs and responses',
-      'loader rendering while response available',
+      'loader rendering while response available'
     ],
     github: 'https://github.com/Bea-ro/05-weather-app',
-    projectURL: 'https://que-tiempo-hace-hoy.netlify.app/',
+    projectURL: 'https://que-tiempo-hace-hoy.netlify.app/'
   },
   {
     image: '/images/nasa-project.png',
@@ -117,10 +124,10 @@ export const PROJECTS = [
       'render multimedia content from NASA API',
       'date input',
       'bonus proposal: additional fetch + select input',
-      'own bonus: 2 pages vs 1 + routes',
+      'own bonus: 2 pages vs 1 + routes'
     ],
     github: 'https://github.com/Bea-ro/04-app-nasa',
-    projectURL: ' https://imagen-astronomica-del-dia.netlify.app/',
+    projectURL: ' https://imagen-astronomica-del-dia.netlify.app/'
   },
   {
     image: '/images/portfolio-project.png',
@@ -132,10 +139,10 @@ export const PROJECTS = [
       'dynamic HTML with JavaScript DOM',
       'navigation emulation in a SPA',
       'event handling',
-      'colorful + appropiate color range',
+      'colorful + appropiate color range'
     ],
     github: 'https://github.com/Bea-ro/03-portfolio',
-    projectURL: 'https://developer-portfolio-brm.netlify.app/',
+    projectURL: 'https://developer-portfolio-brm.netlify.app/'
   },
   {
     image: '/images/dynamic-shop-project.png',
@@ -148,7 +155,7 @@ export const PROJECTS = [
       'loops and iteration',
       'filters',
       'event handling',
-      'media queries for mobile and desktop',
+      'media queries for mobile and desktop'
     ],
     github: 'https://github.com/Bea-ro/02-dynamic-shop-review',
     projectURL: 'https://pc-componentes-filters-review.netlify.app/'
@@ -164,10 +171,10 @@ export const PROJECTS = [
       'use of navbars and lists',
       'variables declaration',
       'flex and grid positioning',
-      'media queries for mobile, tablet and desktop',
+      'media queries for mobile, tablet and desktop'
     ],
     github: 'https://github.com/Bea-ro/01-responsive-webpage',
-    projectURL: 'https://hm-home.netlify.app/',
+    projectURL: 'https://hm-home.netlify.app/'
   },
   {
     image: '/images/star-wars-project.png',
@@ -179,10 +186,10 @@ export const PROJECTS = [
       'dynamic HTML with JavaScript DOM',
       'navigation emulation in a SPA',
       'event handling',
-      'style',
+      'style'
     ],
     github: 'https://github.com/Bea-ro/star-wars-api',
-    projectURL: 'https://my-star-wars-api.netlify.app',
+    projectURL: 'https://my-star-wars-api.netlify.app'
   },
   {
     image: '/images/color-flipper-project.png',
@@ -194,9 +201,9 @@ export const PROJECTS = [
       'dynamic HTML with JavaScript DOM',
       'select type input',
       'loops and iteration',
-      'event handling',
+      'event handling'
     ],
     github: 'https://github.com/Bea-ro/color-flipper',
-    projectURL: 'https://color-flipper-bea.netlify.app/',
-  },
+    projectURL: 'https://color-flipper-bea.netlify.app/'
+  }
 ];

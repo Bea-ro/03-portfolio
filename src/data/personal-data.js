@@ -13,6 +13,7 @@ export const PERSONALDATA = {
     { icon: '/icons/ts-icon.png', name: 'TypeScript' },
     { icon: '/icons/react-icon.png', name: 'React' },
     { icon: '/icons/next-icon.png', name: 'Next' },
+    { icon: '/icons/angular-icon.png', name: 'Angular' },
     { icon: '/icons/vite-icon.png', name: 'Vite' },
     { icon: '/icons/vs-icon.png', name: 'Visual Studio Code' },
     { icon: '/icons/github-icon.png', name: 'Github' },

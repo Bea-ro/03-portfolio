@@ -31,9 +31,9 @@
   justify-content: space-evenly;
 }
 
-#projects-techs-list li:nth-child(7),
 #projects-techs-list li:nth-child(8),
-#projects-techs-list li:nth-child(9) {
+#projects-techs-list li:nth-child(9),
+#projects-techs-list li:nth-child(10) {
   display: none;
 }
 
@@ -49,37 +49,40 @@
   transform: rotate(0deg) translateY(-150px);
 }
 .img-container > .techs-list li:nth-child(2) {
-  transform: rotate(30deg) translateY(-150px);
+  transform: rotate(28deg) translateY(-150px);
 }
 .img-container > .techs-list li:nth-child(3) {
-  transform: rotate(60deg) translateY(-150px);
+  transform: rotate(56deg) translateY(-150px);
 }
 .img-container > .techs-list li:nth-child(4) {
-  transform: rotate(90deg) translateY(-150px);
+  transform: rotate(84deg) translateY(-150px);
 }
 .img-container > .techs-list li:nth-child(5) {
-  transform: rotate(120deg) translateY(-150px);
+  transform: rotate(112deg) translateY(-150px);
 }
 .img-container > .techs-list li:nth-child(6) {
-  transform: rotate(150deg) translateY(-150px);
+  transform: rotate(140deg) translateY(-150px);
 }
 .img-container > .techs-list li:nth-child(7) {
-  transform: rotate(180deg) translateY(-150px);
+  transform: rotate(168deg) translateY(-150px);
 }
 .img-container > .techs-list li:nth-child(8) {
-  transform: rotate(210deg) translateY(-150px);
+  transform: rotate(196deg) translateY(-150px);
 }
 .img-container > .techs-list li:nth-child(9) {
-  transform: rotate(240deg) translateY(-150px);
+  transform: rotate(224deg) translateY(-150px);
 }
 .img-container > .techs-list li:nth-child(10) {
-  transform: rotate(270deg) translateY(-150px);
+  transform: rotate(252deg) translateY(-150px);
 }
 .img-container > .techs-list li:nth-child(11) {
-  transform: rotate(300deg) translateY(-150px);
+  transform: rotate(280deg) translateY(-150px);
 }
 .img-container > .techs-list li:nth-child(12) {
-  transform: rotate(330deg) translateY(-150px);
+  transform: rotate(308deg) translateY(-150px);
+}
+.img-container > .techs-list li:nth-child(13) {
+  transform: rotate(336deg) translateY(-150px);
 }
 
 .tech-icon {

@@ -44,7 +44,9 @@ export const ProjectCards = (list) =>
         </div>
         <p class="project-description">${project.description}</p>
         </div>
-        <p class = ${project.name === 'Enter project name here when it is not finished' ? 'progress-show' : 'progress-hide'} id='in-progress'>In progress</p>
+        <p class = ${
+          project.name === 'Centro de belleza Alondra' ? 'progress-show' : 'progress-hide'
+        } id='in-progress'>In progress</p>
         </a>
         <ul class="project-techs">
         ${PERSONALDATA.techs
@@ -77,6 +79,5 @@ export const ProjectCards = (list) =>
         </figure>
         </div>
     </li>`
-  ).join('');
-
-
+    )
+    .join('');
