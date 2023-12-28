@@ -7,7 +7,7 @@ export const PROJECTS = [
     techs: ['Angular', 'TypeScript'],
     requirements: ['Mobile first'],
     github: 'https://github.com/Bea-ro/centro-belleza-alondra',
-    projectURL: null
+    projectURL: 'https://github.com/Bea-ro/centro-belleza-alondra'
   },
   {
     image: '/images/art-app-project.png',
