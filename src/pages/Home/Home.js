@@ -11,7 +11,6 @@ const main = document.querySelector('main');
 export const renderHome = () => {
   main.innerHTML = `
   <div class="rain-container"></div>
-  <div class="christmas-icon-container">${Christmas}</div>
   <div class="container" id="home-container">
 <section class="personal-info">
 <p class="personal-description">${PERSONALDATA.description}</p>
