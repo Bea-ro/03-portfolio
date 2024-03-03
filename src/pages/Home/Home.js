@@ -2,9 +2,6 @@ import './Home.css';
 import { PERSONALDATA } from '../../data/personal-data';
 import { TechsList } from '../../components/TechsLists/TechsLists';
 import { handleImgClic } from '../../../main';
-import { Christmas } from '../../components/Christmas/Christmas';
-import { xmasEvent } from '../../utils/christmas-event';
-import { rain } from '../../utils/christmas-animation';
 
 const main = document.querySelector('main');
 
@@ -27,7 +24,7 @@ export const renderHome = () => {
   TechsList(PERSONALDATA.techs, imgContainer);
   const imgLink = document.querySelector('.personal-img');
   imgLink.addEventListener('click', handleImgClic);
-  const xmasImg = document.querySelector('.christmas-icon');
-  const body = document.querySelector('body');
-  xmasEvent(xmasImg, body);
+  // const xmasImg = document.querySelector('.christmas-icon');
+  // const body = document.querySelector('body');
+  // xmasEvent(xmasImg, body);
 };
