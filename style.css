@@ -26,13 +26,13 @@
 }
 
 :root {
-  --color-primary: #70FF00;
-  --color-secondary: #E0E0E0;
+  --color-primary: #70ff00;
+  --color-secondary: #e0e0e0;
   --color-black: #000000;
-  --color-white: #FFFFFF;
-  --color-grey-background: #4C4C4C95;
+  --color-white: #ffffff;
+  --color-grey-background: #4c4c4c95;
   --color-grey-text: #828282;
- 
+
   --typography-typeface: 'Poppins', sans-serif;
   --typography-medium: 39px;
   --typography-small: 29px;
@@ -41,15 +41,15 @@
 
   --border-green: 1px solid var(--color-primary);
   --animation-slide-in: slide-in 0.5s ease-in-out;
-  --animation-rotate: rotate 40s linear infinite
+  --animation-rotate: rotate 40s linear infinite;
 }
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: var(--typography-typeface); 
-  color: var(--color-white)
+  font-family: var(--typography-typeface);
+  color: var(--color-white);
 }
 
 *::-webkit-scrollbar {
@@ -64,11 +64,11 @@
 *::-webkit-scrollbar-thumb {
   background-color: var(--color-secundary);
   border-radius: 20px;
-  border: 3px solid var(--color-primary)
+  border: 3px solid var(--color-primary);
 }
 
 body {
-  background: var(--color-black)
+  background: var(--color-black);
 }
 
 li {
@@ -88,7 +88,7 @@ button {
   background-color: var(--color-black);
   width: fit-content;
   margin: 10px;
-  cursor: pointer 
+  cursor: pointer;
 }
 
 .title {
@@ -99,11 +99,10 @@ button {
 }
 
 .parenthesis {
-  color: var(--color-secondary)
+  color: var(--color-secondary);
 }
 
 .li-element:before {
   content: '\25b7';
   padding-right: 15px;
 }
-

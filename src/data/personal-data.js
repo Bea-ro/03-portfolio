@@ -1,6 +1,8 @@
 export const PERSONALDATA = {
   // image: '/images/personal-img.jpg',
-  image: 'https://res.cloudinary.com/dnlceaase/image/upload/v1701274136/personal-img_oeu9vf.jpg',
+  // image: 'https://res.cloudinary.com/dnlceaase/image/upload/v1701274136/personal-img_oeu9vf.jpg',
+  image:
+    'https://res.cloudinary.com/dnlceaase/image/upload/v1725301760/WhatsApp_Image_2024-08-20_at_20.24.08_3_1_ag3l5w.png',
   name: 'Beatriz',
   surname: 'Rodríguez',
   city: 'Madrid',
