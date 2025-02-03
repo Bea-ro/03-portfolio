@@ -1,13 +1,33 @@
 export const PROJECTS = [
   {
-    image: '/images/alondra-project.png',
-    name: 'Centro de belleza Alondra',
-    description: 'Beauty Center app.',
-    date: 'December 2023',
+    image: '/images/rotulos-project.jpg',
+    name: 'Rótulos Learoy',
+    description: 'Commerce Website.',
+    date: 'January 2025',
+    techs: ['Angular', 'TypeScript', 'Node', 'Express', 'MongoDB'],
+    requirements: ['nodemailer'],
+    github: '',
+    projectURL: 'https://rotuloslearoy.com'
+  },
+  {
+    image: '/images/tu-web-solidaria-project.jpg',
+    name: 'Tu web solidaria',
+    description: 'Web Development Services Website.',
+    date: 'December 2024',
     techs: ['Angular', 'TypeScript'],
-    requirements: ['Mobile first'],
-    github: 'https://github.com/Bea-ro/centro-belleza-alondra',
-    projectURL: 'https://github.com/Bea-ro/centro-belleza-alondra'
+    requirements: ['SPA'],
+    github: 'https://github.com/Bea-ro/tu-web-solidaria',
+    projectURL: 'https://tuwebsolidaria.com'
+  },
+  {
+    image: '/images/full-stack-angular-project.jpg',
+    name: 'Botongsign',
+    description: 'Corporate Website.',
+    date: 'October 2024',
+    techs: ['Angular', 'TypeScript', 'Node', 'Express', 'MongoDB'],
+    requirements: ['nodemailer'],
+    github: 'https://github.com/Bea-ro/contact-form-backend',
+    projectURL: 'https://botongsign.com'
   },
   {
     image: '/images/art-app-project.png',
