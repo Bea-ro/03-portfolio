@@ -5,7 +5,14 @@ export const PROJECTS = [
     description: 'Commerce Website.',
     date: 'January 2025',
     techs: ['Angular', 'TypeScript', 'Node', 'Express', 'MongoDB'],
-    requirements: ['nodemailer'],
+    requirements: [
+      'custom pipes',
+      'utility operators',
+      'HttpClient',
+      'helpers',
+      'api',
+      'nodemailer'
+    ],
     github: '',
     projectURL: 'https://rotuloslearoy.com'
   },
@@ -15,7 +22,7 @@ export const PROJECTS = [
     description: 'Web Development Services Website.',
     date: 'December 2024',
     techs: ['Angular', 'TypeScript'],
-    requirements: ['SPA'],
+    requirements: ['SPA', 'reusable components', 'style directives'],
     github: 'https://github.com/Bea-ro/tu-web-solidaria',
     projectURL: 'https://tuwebsolidaria.com'
   },
@@ -25,7 +32,7 @@ export const PROJECTS = [
     description: 'Corporate Website.',
     date: 'October 2024',
     techs: ['Angular', 'TypeScript', 'Node', 'Express', 'MongoDB'],
-    requirements: ['nodemailer'],
+    requirements: ['routes', 'custom directives', 'FormsModule', 'contact server', 'Nodemailer'],
     github: 'https://github.com/Bea-ro/contact-form-backend',
     projectURL: 'https://botongsign.com'
   },
