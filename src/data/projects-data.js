@@ -84,7 +84,7 @@ export const PROJECTS = [
       'rate limiter and CORS'
     ],
     github: 'https://github.com/Bea-ro/09-complete-server',
-    projectURL: 'https://complete-server-rtc.onrender.com/api/authors'
+    projectURL: 'https://09-complete-server-production.up.railway.app/api/authors'
   },
   {
     image: '/images/relational-project.png',
