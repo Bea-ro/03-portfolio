@@ -34,7 +34,7 @@ export const PROJECTS = [
     techs: ['Angular', 'TypeScript', 'Node', 'Express', 'MongoDB'],
     requirements: ['routes', 'custom directives', 'FormsModule', 'contact server', 'Nodemailer'],
     github: 'https://github.com/Bea-ro/contact-form-backend',
-    projectURL: 'https://botongsign.com'
+    projectURL: 'https://botongsign.vercel.app/'
   },
   {
     image: '/images/art-app-project.png',
