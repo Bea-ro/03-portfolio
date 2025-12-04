@@ -1,16 +1,43 @@
 export const EXPERIENCES = [
   {
+    position: 'CEO Web Developer',
+    date: 'Since Jun 2025',
+    logo: '/logos/tws-logo.webp',
+    organization: 'Tu web solidaria',
+    description: 'Website Development',
+    responsabilities: [
+      'Develop and maintein websites.',
+      'Gain Google positioning when required.',
+      'Websites performance monitoring.'
+    ],
+    organizationURL: 'https://tuwebsolidaria.com/'
+  },
+  {
+    position: 'Web Developer',
+    date: 'Since Jan 2024',
+    logo: '/logos/learoy-logo.webp',
+    organization: 'LEAROY LED TECNOLOGY',
+    description: 'Website Development and SEO',
+    responsabilities: [
+      'Develop and maintein websites gaining Google positioning.',
+      'Websites content creation and update.',
+      'Websites performance monitoring.'
+    ],
+    organizationURL: 'https://pantallasledlearoy.com/'
+  },
+  {
     position: 'Communication Manager',
     date: 'May 2018 – October 2022',
     logo: '/logos/down-madrid-logo.png',
     organization: "Madrid Down's Syndrome Fundation",
-    description: 'Develop the Communication strategy to reach Strategic Plan goals and safeguard institutional reputation.',
+    description:
+      'Develop the Communication strategy to reach Strategic Plan goals and safeguard institutional reputation.',
     responsabilities: [
       'Management roles as Board of Directors’ member.',
       'Partners acquisition and loyalty.',
-      'Reputation safeguard.',
+      'Reputation safeguard.'
     ],
-    organizationURL: 'https://downmadrid.org/',
+    organizationURL: 'https://downmadrid.org/'
   },
   {
     position: 'Marketing Product Manager',
@@ -21,7 +48,7 @@ export const EXPERIENCES = [
     responsabilities: [
       'Distribution and pricing strategies ensuring profitability.',
       'Results, competitors, trends and consumer insights analysis.',
-      'Visual Merchandising implementation.',
+      'Visual Merchandising implementation.'
     ],
     organizationURL: 'https://www.esteelauder.es/'
   },
@@ -35,9 +62,9 @@ export const EXPERIENCES = [
     responsabilities: [
       'Sales reporting, update of line up documents and order forms.',
       'Product and collateral distribution to Iberia retailers.',
-      'Retail Managers and Manager Retail Operations support.',
+      'Retail Managers and Manager Retail Operations support.'
     ],
-    organizationURL: 'https://www.maccosmetics.es',
+    organizationURL: 'https://www.maccosmetics.es'
   },
   {
     position: 'Marketing and Communication Intern',
@@ -48,8 +75,8 @@ export const EXPERIENCES = [
     responsabilities: [
       'Data basing and reporting.',
       'Press coverage follow-up.',
-      'Press releases translation.',
+      'Press releases translation.'
     ],
     organizationURL: 'https://www.maccosmetics.es/'
-  },
+  }
 ];
